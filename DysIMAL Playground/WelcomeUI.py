@@ -66,7 +66,6 @@ class WelcomeUI(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
@@ -74,3 +73,17 @@ class WelcomeUI(object):
         self.pushButton.setText(_translate("MainWindow", "WELCOME"))
         self.label.setText(_translate("MainWindow", "DysIMAL"))
         self.label_2.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment Learning System"))
+
+    def get_hide_widgets_from_welcomeUI(self):
+        """This methods is responsible from hiding all the widget from this window"""
+        widgets = [self.frame, self.label, self.label_2, self.pushButton, self.centralwidget]
+        for widget in widgets:
+            widget.hide()
+
+    def get_show_widgets_from_welcomeUI(self):
+        """This methods is responsible from hiding all the widget from this window"""
+        widgets = [self.frame, self.label, self.label_2, self.pushButton, self.centralwidget]
+        for widget in widgets:
+            widget.show()
+
+

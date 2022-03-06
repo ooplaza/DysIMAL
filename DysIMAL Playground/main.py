@@ -2,9 +2,11 @@
     DysIMAL Beta Version
 """
 # Importing all the necessary files/modules to be include in the main program
+from PyQt5.QtWidgets import QApplication
+
 from TakeTestAndRecordsUI import *
 from StudentProfile import *
-from ExamSectionUI import *
+from ExamUIMod import *
 from records2 import *
 from WelcomeUI import *
 
@@ -28,18 +30,22 @@ class main:
         self.student_profile_ui.pushButton.clicked.connect(self.display_welcome)
         self.student_profile_ui.pushButton_2.clicked.connect(self.display_exam)
 
-
     def display_take_test_records(self):
+        # hidden = False
+        # if hidden:
+        #     self.welcome_ui.pushButton.show()
+        #     hidden = True
+        # else:
+        #     self.welcome_ui.pushButton.hide()
+        #     hidden = True
         self.take_test_and_records_ui.setupUi(self.mainWindow)
         self.take_test_and_records_ui.pushButton.clicked.connect(self.display_student_profile)
         self.take_test_and_records_ui.pushButton_2.clicked.connect(self.get_records)
-
 
     def display_welcome(self):
         """This method is responsible for switching frame from welcome to take test and records frame."""
         self.welcome_ui.setupUi(self.mainWindow)
         self.welcome_ui.pushButton.clicked.connect(self.display_take_test_records)
-
 
     def display_exam(self):
         self.student_profile_ui.q_message()

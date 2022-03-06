@@ -7,36 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>466</height>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>0</y>
-      <width>291</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>43</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>DysIMAL</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
@@ -58,17 +35,19 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>30</y>
-       <width>181</width>
+       <x>280</x>
+       <y>10</y>
+       <width>231</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <family>Angeline Vintage</family>
+       <pointsize>20</pointsize>
        <weight>75</weight>
        <bold>true</bold>
+       <underline>true</underline>
       </font>
      </property>
      <property name="text">
@@ -76,25 +55,6 @@
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-    <widget class="Line" name="line">
-     <property name="geometry">
-      <rect>
-       <x>300</x>
-       <y>60</y>
-       <width>161</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Plain</enum>
-     </property>
-     <property name="lineWidth">
-      <number>1</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
      </property>
     </widget>
     <widget class="QFrame" name="frame_2">
@@ -121,7 +81,7 @@ border-radius: 10px;</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>71</width>
+        <width>81</width>
         <height>16</height>
        </rect>
       </property>
@@ -179,7 +139,7 @@ border-radius: 10px;</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>81</width>
+        <width>91</width>
         <height>16</height>
        </rect>
       </property>
@@ -237,7 +197,7 @@ border-radius: 10px;</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>71</width>
+        <width>81</width>
         <height>20</height>
        </rect>
       </property>
@@ -295,7 +255,7 @@ border-radius: 10px;</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>81</width>
+        <width>91</width>
         <height>20</height>
        </rect>
       </property>
@@ -403,6 +363,9 @@ border-radius: 10px;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgb(255, 255, 255);</string>
      </property>
@@ -425,6 +388,9 @@ border-radius: 10px;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgb(255, 255, 255);</string>
@@ -456,9 +422,9 @@ image: url(:/Images/WhiteBackground.png);</string>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>220</x>
        <y>60</y>
-       <width>301</width>
+       <width>391</width>
        <height>20</height>
       </rect>
      </property>
@@ -472,9 +438,32 @@ image: url(:/Images/WhiteBackground.png);</string>
       <string>Dyscalculia Immediate Mode of Assesment Learning System</string>
      </property>
     </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>0</y>
+       <width>311</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>After Disaster</family>
+       <pointsize>43</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>DysIMAL</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
    </widget>
    <zorder>frame_7</zorder>
-   <zorder>label</zorder>
    <zorder>frame</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -483,14 +472,12 @@ image: url(:/Images/WhiteBackground.png);</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="BG_Image.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

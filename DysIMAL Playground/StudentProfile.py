@@ -9,8 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import *
-import sys
+from PyQt5.QtWidgets import QMessageBox
 
 
 class StudentProfileUI:
@@ -39,22 +38,18 @@ class StudentProfileUI:
         self.label_3 = QtWidgets.QLabel(self.frame)
         self.label_3.setGeometry(QtCore.QRect(290, 10, 181, 41))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setFamily("Angeline Vintage")
+        font.setPointSize(15)
         font.setBold(True)
+        font.setUnderline(True)
         font.setWeight(75)
         self.label_3.setFont(font)
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
         self.label_3.setObjectName("label_3")
-        self.line = QtWidgets.QFrame(self.frame)
-        self.line.setGeometry(QtCore.QRect(300, 40, 161, 16))
-        self.line.setFrameShadow(QtWidgets.QFrame.Plain)
-        self.line.setLineWidth(1)
-        self.line.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line.setObjectName("line")
         self.frame_2 = QtWidgets.QFrame(self.frame)
         self.frame_2.setGeometry(QtCore.QRect(30, 70, 701, 41))
         self.frame_2.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-                                   "border-radius: 10px;")
+"border-radius: 10px;")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -73,21 +68,21 @@ class StudentProfileUI:
         self.lineEdit.setFont(font)
         self.lineEdit.setToolTip("")
         self.lineEdit.setStyleSheet("QLineEdit {\n"
-                                    "    border: 2px solid #FFFFFF;\n"
-                                    "}\n"
-                                    "\n"
-                                    "QLineEdit:focus{\n"
-                                    "    border: 2px solid #000000\n"
-                                    "}")
+"    border: 2px solid #FFFFFF;\n"
+"}\n"
+"\n"
+"QLineEdit:focus{\n"
+"    border: 2px solid #000000\n"
+"}")
         self.lineEdit.setFrame(True)
         self.lineEdit.setCursorPosition(0)
-        self.lineEdit.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+        self.lineEdit.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit.setClearButtonEnabled(True)
         self.lineEdit.setObjectName("lineEdit")
         self.frame_3 = QtWidgets.QFrame(self.frame)
         self.frame_3.setGeometry(QtCore.QRect(30, 120, 701, 41))
         self.frame_3.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-                                   "border-radius: 10px;")
+"border-radius: 10px;")
         self.frame_3.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_3.setObjectName("frame_3")
@@ -105,19 +100,19 @@ class StudentProfileUI:
         font.setPointSize(10)
         self.lineEdit_2.setFont(font)
         self.lineEdit_2.setStyleSheet("QLineEdit {\n"
-                                      "    border: 2px solid #FFFFFF;\n"
-                                      "}\n"
-                                      "\n"
-                                      "QLineEdit:focus{\n"
-                                      "    border: 2px solid #000000\n"
-                                      "}")
-        self.lineEdit_2.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+"    border: 2px solid #FFFFFF;\n"
+"}\n"
+"\n"
+"QLineEdit:focus{\n"
+"    border: 2px solid #000000\n"
+"}")
+        self.lineEdit_2.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit_2.setClearButtonEnabled(True)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.frame_4 = QtWidgets.QFrame(self.frame)
         self.frame_4.setGeometry(QtCore.QRect(30, 170, 701, 41))
         self.frame_4.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-                                   "border-radius: 10px;")
+"border-radius: 10px;")
         self.frame_4.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_4.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_4.setObjectName("frame_4")
@@ -135,19 +130,19 @@ class StudentProfileUI:
         font.setPointSize(10)
         self.lineEdit_3.setFont(font)
         self.lineEdit_3.setStyleSheet("QLineEdit {\n"
-                                      "    border: 2px solid #FFFFFF;\n"
-                                      "}\n"
-                                      "\n"
-                                      "QLineEdit:focus{\n"
-                                      "    border: 2px solid #000000\n"
-                                      "}")
-        self.lineEdit_3.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+"    border: 2px solid #FFFFFF;\n"
+"}\n"
+"\n"
+"QLineEdit:focus{\n"
+"    border: 2px solid #000000\n"
+"}")
+        self.lineEdit_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit_3.setClearButtonEnabled(True)
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.frame_5 = QtWidgets.QFrame(self.frame)
         self.frame_5.setGeometry(QtCore.QRect(30, 220, 341, 41))
         self.frame_5.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-                                   "border-radius: 10px;")
+"border-radius: 10px;")
         self.frame_5.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_5.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_5.setObjectName("frame_5")
@@ -165,19 +160,19 @@ class StudentProfileUI:
         font.setPointSize(10)
         self.lineEdit_4.setFont(font)
         self.lineEdit_4.setStyleSheet("QLineEdit {\n"
-                                      "    border: 2px solid #FFFFFF;\n"
-                                      "}\n"
-                                      "\n"
-                                      "QLineEdit:focus{\n"
-                                      "    border: 2px solid #000000\n"
-                                      "}")
-        self.lineEdit_4.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+"    border: 2px solid #FFFFFF;\n"
+"}\n"
+"\n"
+"QLineEdit:focus{\n"
+"    border: 2px solid #000000\n"
+"}")
+        self.lineEdit_4.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit_4.setClearButtonEnabled(True)
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.frame_6 = QtWidgets.QFrame(self.frame)
         self.frame_6.setGeometry(QtCore.QRect(390, 220, 341, 41))
         self.frame_6.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-                                   "border-radius: 10px;")
+"border-radius: 10px;")
         self.frame_6.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_6.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_6.setObjectName("frame_6")
@@ -195,13 +190,13 @@ class StudentProfileUI:
         font.setPointSize(10)
         self.lineEdit_5.setFont(font)
         self.lineEdit_5.setStyleSheet("QLineEdit {\n"
-                                      "    border: 2px solid #FFFFFF;\n"
-                                      "}\n"
-                                      "\n"
-                                      "QLineEdit:focus{\n"
-                                      "    border: 2px solid #000000\n"
-                                      "}")
-        self.lineEdit_5.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+"    border: 2px solid #FFFFFF;\n"
+"}\n"
+"\n"
+"QLineEdit:focus{\n"
+"    border: 2px solid #000000\n"
+"}")
+        self.lineEdit_5.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit_5.setClearButtonEnabled(True)
         self.lineEdit_5.setObjectName("lineEdit_5")
         self.pushButton = QtWidgets.QPushButton(self.frame)
@@ -213,8 +208,8 @@ class StudentProfileUI:
         self.pushButton.setFont(font)
         self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setStyleSheet("QPushButton:hover{\n"
-                                      "    background-color: rgb(255, 255, 255);\n"
-                                      "}")
+"    background-color: rgb(255, 255, 255);\n"
+"}")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame)
         self.pushButton_2.setGeometry(QtCore.QRect(620, 280, 111, 31))
@@ -225,8 +220,8 @@ class StudentProfileUI:
         self.pushButton_2.setFont(font)
         self.pushButton_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_2.setStyleSheet("QPushButton:hover{\n"
-                                        "    background-color: rgb(255, 255, 255);\n"
-                                        "}")
+"    background-color: rgb(255, 255, 255);\n"
+"}")
         self.pushButton_2.setObjectName("pushButton_2")
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(0, 0, 800, 480))
@@ -243,17 +238,12 @@ class StudentProfileUI:
         self.label.raise_()
         self.frame.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.actionExit = QtWidgets.QAction(MainWindow)
+        self.actionExit.setObjectName("actionExit")
 
-        # Methods Initialization must starts Here
-        #self.pushButton.clicked.connect(self.Home_Button)
-        #self.pushButton_2.clicked.connect(self.Start_Exam)
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -261,7 +251,7 @@ class StudentProfileUI:
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "DysIMAL"))
-        self.frame.setToolTip(_translate("MainWindow", "Ex. Ryan Crush ni Romel pero naay ka Fling siya karon"))
+        self.frame.setToolTip(_translate("MainWindow", "Ex. Romel Renomeron"))
         self.label_3.setText(_translate("MainWindow", "Student\'s Profile"))
         self.label_4.setText(_translate("MainWindow", "First Name :"))
         self.label_5.setText(_translate("MainWindow", "Middle Name :"))
@@ -271,6 +261,7 @@ class StudentProfileUI:
         self.pushButton.setText(_translate("MainWindow", "Home"))
         self.pushButton_2.setText(_translate("MainWindow", "Start Exam"))
         self.label_2.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment Learning System"))
+        self.actionExit.setText(_translate("MainWindow", "Exit"))
 
     def get_LineEdit_Text_Input(self):
         """

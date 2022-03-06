@@ -39,7 +39,7 @@ image: url(:/Images/WelcomeBackground.png);</string>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>300</x>
+       <x>310</x>
        <y>300</y>
        <width>181</width>
        <height>61</height>
@@ -67,7 +67,7 @@ image: url(:/Images/WelcomeBackground.png);</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
