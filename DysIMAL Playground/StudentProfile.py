@@ -274,6 +274,8 @@ class StudentProfileUI:
         age = self.lineEdit_5.text()
         self.q_message()
 
+        # DB Below.
+
     def q_message(self):
         msgBox = QMessageBox()
         msgBox.setIcon(QMessageBox.Information)
