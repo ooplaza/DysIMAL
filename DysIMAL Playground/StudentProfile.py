@@ -10,7 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
-
+import mysql.connector
 
 class StudentProfileUI:
     def setupUi(self, MainWindow):
@@ -223,6 +223,7 @@ class StudentProfileUI:
 "    background-color: rgb(255, 255, 255);\n"
 "}")
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_2.clicked.connect(self.get_LineEdit_Text_Input)
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(0, 0, 800, 480))
         self.widget.setStyleSheet("image: url(:/image/Images/WhiteBackground.png);")
@@ -267,14 +268,28 @@ class StudentProfileUI:
         """
             This methods is responsible for retrieving data from the give input.
         """
+        mydb = mysql.connector.connect(
+        host='localhost',
+        user='root',
+        password='',
+        port='3306',
+        database='dysimal')
+
+        cursor = mydb.cursor()
+        
         first_name = self.lineEdit.text()
         middle_name = self.lineEdit_2.text()
         last_name = self.lineEdit_3.text()
         grade_level = self.lineEdit_4.text()
         age = self.lineEdit_5.text()
-        self.q_message()
 
-        # DB Below.
+        insertquery = 'INSERT INTO students_profile values(%s,%s,%s,%s,%s)'
+        student = (first_name, middle_name, last_name, grade_level, age)
+
+        cursor.execute(insertquery, student)
+
+        mydb.commit()
+        self.q_message()
 
     def q_message(self):
         msgBox = QMessageBox()
