@@ -20,6 +20,7 @@ class ExamQuestions:
         self.mainWindow = MainWindow
 
     def calculation_subtest_1_to_5(self):
+        self.calculationSubtest1to5.setupUi(self.mainWindow)
         self.calculationSubtest1to5.pushButton_2.clicked.connect(self.calculation_subtest_6_to_10)
 
     def calculation_subtest_6_to_10(self):
