@@ -10,7 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
-
+import mysql.connector
 
 class StudentProfileUI:
     def setupUi(self, MainWindow):
@@ -223,6 +223,7 @@ class StudentProfileUI:
 "    background-color: rgb(255, 255, 255);\n"
 "}")
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_2.clicked.connect(self.get_LineEdit_Text_Input)
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(0, 0, 800, 480))
         self.widget.setStyleSheet("image: url(:/image/Images/WhiteBackground.png);")
@@ -267,13 +268,23 @@ class StudentProfileUI:
         """
             This methods is responsible for retrieving data from the give input.
         """
+
+        mydb = mysql.connector.connect(
+        host='localhost',
+        user='root',
+        password='',
+        port='3306',
+        database='dysimal'
+        )
+
+        student_IDcode = ""
         first_name = self.lineEdit.text()
         middle_name = self.lineEdit_2.text()
         last_name = self.lineEdit_3.text()
         grade_level = self.lineEdit_4.text()
         age = self.lineEdit_5.text()
 
-        line_edit_names = [first_name, middle_name, last_name, grade_level, age]
+        line_edit_names = [student_IDcode, first_name, middle_name, last_name, grade_level, age]
         set_text_lineEdit = [self.lineEdit, self.lineEdit_2, self.lineEdit_3, self.lineEdit_4, self.lineEdit_5]
         counter = 0
 
@@ -281,9 +292,12 @@ class StudentProfileUI:
         for name in line_edit_names:
             set_text_lineEdit[counter].setText(name)
 
-
-
         # DB Below.
+        cursor = mydb.cursor()
+        insertquery = 'INSERT INTO students_profile values(%s,%s,%s,%s,%s,%s)'
+        cursor.execute(insertquery, line_edit_names)
+        mydb.commit()
+        
 
     def q_message(self):
         msgBox = QMessageBox()
