@@ -7,52 +7,28 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>466</height>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>10</y>
-      <width>291</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>After Disaster</family>
-      <pointsize>40</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>DysIMAL</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>90</y>
-      <width>761</width>
-      <height>351</height>
+      <width>781</width>
+      <height>361</height>
      </rect>
     </property>
     <property name="toolTip">
-     <string>Ex. Romel Renomeron</string>
+     <string/>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(180, 203, 253);</string>
+     <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 20px;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -63,7 +39,7 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>290</x>
+       <x>300</x>
        <y>10</y>
        <width>181</width>
        <height>41</height>
@@ -71,10 +47,10 @@
      </property>
      <property name="font">
       <font>
-       <family>Angeline Vintage</family>
+       <family>After Disaster</family>
        <pointsize>15</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <weight>50</weight>
+       <bold>false</bold>
        <underline>true</underline>
       </font>
      </property>
@@ -90,7 +66,7 @@
       <rect>
        <x>30</x>
        <y>70</y>
-       <width>701</width>
+       <width>721</width>
        <height>41</height>
       </rect>
      </property>
@@ -131,7 +107,7 @@ border-radius: 10px;</string>
        <rect>
         <x>110</x>
         <y>0</y>
-        <width>591</width>
+        <width>611</width>
         <height>41</height>
        </rect>
       </property>
@@ -171,7 +147,7 @@ QLineEdit:focus{
       <rect>
        <x>30</x>
        <y>120</y>
-       <width>701</width>
+       <width>721</width>
        <height>41</height>
       </rect>
      </property>
@@ -212,7 +188,7 @@ border-radius: 10px;</string>
        <rect>
         <x>110</x>
         <y>0</y>
-        <width>591</width>
+        <width>611</width>
         <height>41</height>
        </rect>
       </property>
@@ -243,7 +219,7 @@ QLineEdit:focus{
       <rect>
        <x>30</x>
        <y>170</y>
-       <width>701</width>
+       <width>721</width>
        <height>41</height>
       </rect>
      </property>
@@ -284,7 +260,7 @@ border-radius: 10px;</string>
        <rect>
         <x>110</x>
         <y>0</y>
-        <width>591</width>
+        <width>611</width>
         <height>41</height>
        </rect>
       </property>
@@ -387,7 +363,7 @@ QLineEdit:focus{
       <rect>
        <x>390</x>
        <y>220</y>
-       <width>341</width>
+       <width>361</width>
        <height>41</height>
       </rect>
      </property>
@@ -428,7 +404,7 @@ border-radius: 10px;</string>
        <rect>
         <x>50</x>
         <y>0</y>
-        <width>291</width>
+        <width>311</width>
         <height>41</height>
        </rect>
       </property>
@@ -458,7 +434,7 @@ QLineEdit:focus{
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>280</y>
+       <y>300</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -485,8 +461,8 @@ QLineEdit:focus{
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>620</x>
-       <y>280</y>
+       <x>640</x>
+       <y>300</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -511,7 +487,32 @@ QLineEdit:focus{
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>After Disaster</family>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>DysIMAL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -521,13 +522,13 @@ QLineEdit:focus{
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/image/Images/WhiteBackground.png);</string>
+     <string notr="true">image: url(:/background/WhiteBackground.png);</string>
     </property>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>70</y>
+       <x>210</x>
+       <y>60</y>
        <width>391</width>
        <height>20</height>
       </rect>
@@ -543,9 +544,9 @@ QLineEdit:focus{
      </property>
     </widget>
    </widget>
-   <zorder>widget</zorder>
-   <zorder>label</zorder>
+   <zorder>widget_2</zorder>
    <zorder>frame</zorder>
+   <zorder>label</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionExit">

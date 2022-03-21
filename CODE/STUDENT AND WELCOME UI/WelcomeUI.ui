@@ -14,6 +14,9 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/WelcomeBackground.png);</string>
+   </property>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
@@ -36,29 +39,127 @@ image: url(:/Images/WelcomeBackground.png);</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QFrame" name="frame_2">
      <property name="geometry">
       <rect>
-       <x>310</x>
-       <y>300</y>
-       <width>181</width>
+       <x>260</x>
+       <y>350</y>
+       <width>301</width>
        <height>61</height>
       </rect>
      </property>
-     <property name="font">
-      <font>
-       <pointsize>15</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
+     <property name="toolTip">
+      <string/>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(16, 166, 169);</string>
+      <string notr="true">background-color: rgb(19, 174, 178);
+border-radius: 20px;</string>
      </property>
-     <property name="text">
-      <string>WELCOME</string>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
      </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+	background-color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>WELCOME</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
     </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>60</y>
+        <width>301</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>After Disaster</family>
+        <pointsize>60</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="text">
+       <string>DsyIMAL</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>170</y>
+        <width>391</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dyscalculia Immediate Mode of Assesment Learning System</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>frame_3</zorder>
+    <zorder>frame_2</zorder>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -74,8 +175,7 @@ image: url(:/Images/WelcomeBackground.png);</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="BG_Image.qrc"/>
-  <include location="WelcomButton.qrc"/>
+  <include location="Welcomeqrc.qrc"/>
  </resources>
  <connections/>
 </ui>
