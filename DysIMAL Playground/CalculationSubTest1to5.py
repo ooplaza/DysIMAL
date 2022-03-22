@@ -9,6 +9,8 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QRegExp
+from PyQt5.QtGui import QRegExpValidator
 
 
 class CalculationSubtest1To5:
@@ -18,46 +20,15 @@ class CalculationSubtest1To5:
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(10, 0, 780, 480))
+        self.frame.setGeometry(QtCore.QRect(0, 0, 800, 480))
         self.frame.setStyleSheet("background-color: rgb(180, 203, 253);")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
-        self.label = QtWidgets.QLabel(self.frame)
-        self.label.setGeometry(QtCore.QRect(250, 0, 301, 20))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setUnderline(False)
-        font.setWeight(75)
-        self.label.setFont(font)
-        self.label.setAlignment(QtCore.Qt.AlignCenter)
-        self.label.setWordWrap(False)
-        self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(self.frame)
-        self.label_2.setGeometry(QtCore.QRect(250, 20, 301, 20))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setUnderline(False)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setWordWrap(False)
-        self.label_2.setObjectName("label_2")
-        self.label_3 = QtWidgets.QLabel(self.frame)
-        self.label_3.setGeometry(QtCore.QRect(10, 40, 91, 31))
-        font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(12)
-        font.setBold(True)
-        font.setUnderline(True)
-        font.setWeight(75)
-        self.label_3.setFont(font)
-        self.label_3.setMouseTracking(False)
-        self.label_3.setObjectName("label_3")
         self.frame_2 = QtWidgets.QFrame(self.frame)
         self.frame_2.setGeometry(QtCore.QRect(10, 120, 761, 291))
         self.frame_2.setStyleSheet("background-color: rgb(218, 229, 255);\n"
-"border-radius: 20px;")
+                                   "border-radius: 20px;")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -85,7 +56,7 @@ class CalculationSubtest1To5:
         self.pushButton.setFont(font)
         self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setStyleSheet("background-color: rgb(180, 203, 253);\n"
-"border-radius: 10px;")
+                                      "border-radius: 10px;")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame_2)
         self.pushButton_2.setGeometry(QtCore.QRect(630, 240, 111, 31))
@@ -98,66 +69,77 @@ class CalculationSubtest1To5:
         self.pushButton_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_2.setAcceptDrops(False)
         self.pushButton_2.setStyleSheet("background-color: rgb(180, 203, 253);\n"
-"border-radius: 10px;")
+                                        "border-radius: 10px;")
         self.pushButton_2.setAutoDefault(False)
         self.pushButton_2.setObjectName("pushButton_2")
         self.lineEdit = QtWidgets.QLineEdit(self.frame_2)
         self.lineEdit.setGeometry(QtCore.QRect(80, 10, 661, 20))
         self.lineEdit.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"\n"
-"QLineEdit:focus{\n"
-"    border: 2px solid #000000\n"
-"}")
+                                    "    border: 2px solid #FFFFFF;\n"
+                                    "}\n"
+                                    "\n"
+                                    "QLineEdit:focus{\n"
+                                    "    border: 2px solid #000000\n"
+                                    "}")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.frame_2)
         self.lineEdit_2.setGeometry(QtCore.QRect(80, 50, 661, 20))
         self.lineEdit_2.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"\n"
-"QLineEdit:focus{\n"
-"    border: 2px solid #000000\n"
-"}")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QLineEdit:focus{\n"
+                                      "    border: 2px solid #000000\n"
+                                      "}")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.lineEdit_3 = QtWidgets.QLineEdit(self.frame_2)
         self.lineEdit_3.setGeometry(QtCore.QRect(80, 90, 661, 20))
         self.lineEdit_3.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"\n"
-"QLineEdit:focus{\n"
-"    border: 2px solid #000000\n"
-"}")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QLineEdit:focus{\n"
+                                      "    border: 2px solid #000000\n"
+                                      "}")
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.frame_2)
         self.lineEdit_4.setGeometry(QtCore.QRect(80, 130, 661, 20))
         self.lineEdit_4.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"\n"
-"QLineEdit:focus{\n"
-"    border: 2px solid #000000\n"
-"}\n"
-"")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QLineEdit:focus{\n"
+                                      "    border: 2px solid #000000\n"
+                                      "}\n"
+                                      "")
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.lineEdit_5 = QtWidgets.QLineEdit(self.frame_2)
         self.lineEdit_5.setGeometry(QtCore.QRect(80, 170, 661, 20))
         self.lineEdit_5.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"\n"
-"QLineEdit:focus{\n"
-"    border: 2px solid #000000\n"
-"}\n"
-"")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QLineEdit:focus{\n"
+                                      "    border: 2px solid #000000\n"
+                                      "}\n"
+                                      "")
         self.lineEdit_5.setObjectName("lineEdit_5")
+        self.label = QtWidgets.QLabel(self.frame)
+        self.label.setGeometry(QtCore.QRect(150, 0, 521, 20))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setUnderline(False)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setWordWrap(False)
+        self.label.setObjectName("label")
         self.label_4 = QtWidgets.QLabel(self.frame)
         self.label_4.setGeometry(QtCore.QRect(270, 90, 261, 31))
         font = QtGui.QFont()
-        font.setFamily("Baskerville Old Face")
-        font.setPointSize(12)
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
         font.setBold(True)
         font.setUnderline(False)
         font.setWeight(75)
@@ -165,6 +147,17 @@ class CalculationSubtest1To5:
         self.label_4.setMouseTracking(False)
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
+        self.label_3 = QtWidgets.QLabel(self.frame)
+        self.label_3.setGeometry(QtCore.QRect(10, 40, 91, 31))
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setUnderline(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setMouseTracking(False)
+        self.label_3.setObjectName("label_3")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
@@ -174,15 +167,26 @@ class CalculationSubtest1To5:
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
+        # Methods Initialization
+        self.set_regex_validator()
+        L1 = self.lineEdit.text()
+        if L1 == ' ':
+            L2 = self.lineEdit.text()
+            self.lineEdit.setText(L2)
+
+        # -------------------------------------
+        self.lineEdit.setText("531")
+        self.lineEdit_2.setText("21")
+        self.lineEdit_3.setText("515")
+        self.lineEdit_4.setText("121")
+        self.lineEdit_5.setText("55")
+
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in "))
-        self.label_2.setText(_translate("MainWindow", "Learning System"))
-        self.label_3.setText(_translate("MainWindow", "Directions:"))
         self.label_5.setText(_translate("MainWindow", "1. 525 + 6 = "))
         self.label_6.setText(_translate("MainWindow", "2. 42 + 9 = "))
         self.label_7.setText(_translate("MainWindow", "3. 98 - 81 = "))
@@ -190,4 +194,34 @@ class CalculationSubtest1To5:
         self.label_9.setText(_translate("MainWindow", "5. 11 x 7 ="))
         self.pushButton.setText(_translate("MainWindow", "Back"))
         self.pushButton_2.setText(_translate("MainWindow", "Next"))
+        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in Learning System"))
         self.label_4.setText(_translate("MainWindow", "Calculation Sub Test"))
+        self.label_3.setText(_translate("MainWindow", "Directions:"))
+
+    # def QlineEdit_set_text_input(self):
+    #     input_text = [self.lineEdit, self.lineEdit_2, self.lineEdit_3, self.lineEdit_4, self.lineEdit_5]
+    #     save_data = list()
+    #     for data in input_text:
+    #         text = data.text()
+    #         save_data.append(data.setText(text))
+    #         print(data.text())
+
+    def set_regex_validator(self):
+        """This method is responsible for setting validation for all lineEdit on calculation 1 to 5."""
+        nume_validator = QRegExpValidator(QRegExp(r"^[-+]?([1-9]\d*|0)$"))
+        line_text_nume = [self.lineEdit, self.lineEdit_2, self.lineEdit_3, self.lineEdit_4, self.lineEdit_5]
+        validated_line_input = [text.setValidator(nume_validator) for text in line_text_nume]
+
+    def get_text(self):
+        lines = [self.lineEdit, self.lineEdit_2, self.lineEdit_3, self.lineEdit_4, self.lineEdit_5]
+        counter = 0
+        list_lines = []
+
+        for i in lines:
+            data = i.text()
+            print(data)
+            list_lines.append(data)
+            lines[counter].setText(list_lines[counter])
+
+        print(list_lines)
+

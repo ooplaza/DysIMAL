@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'CalculationSubTest11to15.ui'
+# Form implementation generated from reading ui file 'MathFluencySubtest11to15.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -18,7 +18,7 @@ class MathFluencySubtest11To15:
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(10, 0, 780, 480))
+        self.frame.setGeometry(QtCore.QRect(-1, 0, 800, 480))
         self.frame.setStyleSheet("background-color: rgb(180, 203, 253);")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -74,7 +74,7 @@ class MathFluencySubtest11To15:
         self.label_8.setGeometry(QtCore.QRect(10, 130, 741, 21))
         self.label_8.setObjectName("label_8")
         self.label_9 = QtWidgets.QLabel(self.frame_2)
-        self.label_9.setGeometry(QtCore.QRect(10, 170, 741, 21))
+        self.label_9.setGeometry(QtCore.QRect(10, 160, 741, 41))
         self.label_9.setObjectName("label_9")
         self.pushButton = QtWidgets.QPushButton(self.frame_2)
         self.pushButton.setGeometry(QtCore.QRect(20, 240, 111, 31))
@@ -102,7 +102,7 @@ class MathFluencySubtest11To15:
         self.pushButton_2.setAutoDefault(False)
         self.pushButton_2.setObjectName("pushButton_2")
         self.lineEdit = QtWidgets.QLineEdit(self.frame_2)
-        self.lineEdit.setGeometry(QtCore.QRect(160, 10, 581, 20))
+        self.lineEdit.setGeometry(QtCore.QRect(240, 10, 501, 20))
         self.lineEdit.setStyleSheet("QLineEdit {\n"
 "    border: 2px solid #FFFFFF;\n"
 "}\n"
@@ -112,7 +112,7 @@ class MathFluencySubtest11To15:
 "}")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.frame_2)
-        self.lineEdit_2.setGeometry(QtCore.QRect(160, 50, 581, 20))
+        self.lineEdit_2.setGeometry(QtCore.QRect(190, 50, 551, 20))
         self.lineEdit_2.setStyleSheet("QLineEdit {\n"
 "    border: 2px solid #FFFFFF;\n"
 "}\n"
@@ -122,7 +122,7 @@ class MathFluencySubtest11To15:
 "}")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.lineEdit_3 = QtWidgets.QLineEdit(self.frame_2)
-        self.lineEdit_3.setGeometry(QtCore.QRect(160, 90, 581, 20))
+        self.lineEdit_3.setGeometry(QtCore.QRect(190, 90, 551, 20))
         self.lineEdit_3.setStyleSheet("QLineEdit {\n"
 "    border: 2px solid #FFFFFF;\n"
 "}\n"
@@ -132,7 +132,7 @@ class MathFluencySubtest11To15:
 "}")
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.frame_2)
-        self.lineEdit_4.setGeometry(QtCore.QRect(160, 130, 581, 20))
+        self.lineEdit_4.setGeometry(QtCore.QRect(150, 130, 591, 20))
         self.lineEdit_4.setStyleSheet("QLineEdit {\n"
 "    border: 2px solid #FFFFFF;\n"
 "}\n"
@@ -142,7 +142,7 @@ class MathFluencySubtest11To15:
 "}")
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.lineEdit_5 = QtWidgets.QLineEdit(self.frame_2)
-        self.lineEdit_5.setGeometry(QtCore.QRect(160, 170, 581, 20))
+        self.lineEdit_5.setGeometry(QtCore.QRect(150, 170, 591, 20))
         self.lineEdit_5.setStyleSheet("QLineEdit {\n"
 "    border: 2px solid #FFFFFF;\n"
 "}\n"
@@ -181,21 +181,11 @@ class MathFluencySubtest11To15:
         self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in "))
         self.label_2.setText(_translate("MainWindow", "Learning System"))
         self.label_3.setText(_translate("MainWindow", "Directions:"))
-        self.label_5.setText(_translate("MainWindow", "11. Subtract. 40/77 - 15/77 = "))
-        self.label_6.setText(_translate("MainWindow", "12. Subtract. 19/22 - 10/22 =  "))
-        self.label_7.setText(_translate("MainWindow", "13. Mupltiply. 2/3 x 2/5       = "))
-        self.label_8.setText(_translate("MainWindow", "14. Multiply. 1/6 x 3/5         = "))
-        self.label_9.setText(_translate("MainWindow", "15. Divide. 3/4 ÷ 6/7          ="))
+        self.label_5.setText(_translate("MainWindow", "11. Round to the nearest thousand.18,591 ="))
+        self.label_6.setText(_translate("MainWindow", "12. Write 8/10 in simplest form. = "))
+        self.label_7.setText(_translate("MainWindow", "13. Write 4/16 in simplest form. ="))
+        self.label_8.setText(_translate("MainWindow", "14. What is 78% of 100 = "))
+        self.label_9.setText(_translate("MainWindow", "15. What is 25% of 12 = "))
         self.pushButton.setText(_translate("MainWindow", "Back"))
         self.pushButton_2.setText(_translate("MainWindow", "Next"))
-        self.label_4.setText(_translate("MainWindow", "Calculation Subtest"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+        self.label_4.setText(_translate("MainWindow", "Math Fluency Subtest"))

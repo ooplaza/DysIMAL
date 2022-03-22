@@ -11,38 +11,18 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class AppliedProblemSubtest6To10:
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 480)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(10, 20, 780, 480))
+        self.frame.setGeometry(QtCore.QRect(-1, 20, 800, 480))
         self.frame.setStyleSheet("background-color: rgb(180, 203, 253);")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
-        self.label = QtWidgets.QLabel(self.frame)
-        self.label.setGeometry(QtCore.QRect(250, 0, 301, 20))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setUnderline(False)
-        font.setWeight(75)
-        self.label.setFont(font)
-        self.label.setAlignment(QtCore.Qt.AlignCenter)
-        self.label.setWordWrap(False)
-        self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(self.frame)
-        self.label_2.setGeometry(QtCore.QRect(250, 20, 301, 20))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setUnderline(False)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setWordWrap(False)
-        self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.frame)
         self.label_3.setGeometry(QtCore.QRect(10, 40, 91, 31))
         font = QtGui.QFont()
@@ -151,11 +131,22 @@ class Ui_MainWindow(object):
 "    border: 2px solid #000000\n"
 "}")
         self.lineEdit_5.setObjectName("lineEdit_5")
+        self.label = QtWidgets.QLabel(self.frame)
+        self.label.setGeometry(QtCore.QRect(140, 0, 531, 20))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setUnderline(False)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setWordWrap(False)
+        self.label.setObjectName("label")
         self.label_4 = QtWidgets.QLabel(self.frame)
         self.label_4.setGeometry(QtCore.QRect(270, 90, 261, 31))
         font = QtGui.QFont()
-        font.setFamily("Baskerville Old Face")
-        font.setPointSize(12)
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
         font.setBold(True)
         font.setUnderline(False)
         font.setWeight(75)
@@ -178,8 +169,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in "))
-        self.label_2.setText(_translate("MainWindow", "Learning System"))
         self.label_3.setText(_translate("MainWindow", "Directions:"))
         self.label_5.setText(_translate("MainWindow", " 6.Mr. De Guzman and the boys spent Php 567.75 for food and Php 175.50 for \n"
 "transportation during the Science Fair Camp. If they had Php 800.00 to spend,\n"
@@ -195,14 +184,5 @@ class Ui_MainWindow(object):
 "are wearing shoes. 3 people are wearing both. How many people are in bare feet? "))
         self.pushButton.setText(_translate("MainWindow", "Back"))
         self.pushButton_2.setText(_translate("MainWindow", "Next"))
+        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in Learning System"))
         self.label_4.setText(_translate("MainWindow", "Applied Problem Subtest"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())

@@ -1,9 +1,8 @@
-
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 import recpic
 
-class Ui_MainWindow(object):
+
+class SearchRecords:
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 480)
@@ -15,7 +14,7 @@ class Ui_MainWindow(object):
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(10, 70, 781, 371))
         self.widget.setStyleSheet("background-color: rgb(180, 203, 253);\n"
-"border-radius: 20px;")
+                                  "border-radius: 20px;")
         self.widget.setObjectName("widget")
         self.frame = QtWidgets.QFrame(self.widget)
         self.frame.setEnabled(True)
@@ -34,8 +33,8 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.lineEdit.setFont(font)
         self.lineEdit.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}")
+                                    "    border: 2px solid #FFFFFF;\n"
+                                    "}")
         self.lineEdit.setText("")
         self.lineEdit.setClearButtonEnabled(True)
         self.lineEdit.setObjectName("lineEdit")
@@ -46,8 +45,8 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.lineEdit_2.setFont(font)
         self.lineEdit_2.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}")
         self.lineEdit_2.setClearButtonEnabled(True)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.label_3 = QtWidgets.QLabel(self.frame)
@@ -66,9 +65,9 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.lineEdit_3.setFont(font)
         self.lineEdit_3.setStyleSheet("QLineEdit {\n"
-"    border: 2px solid #FFFFFF;\n"
-"}\n"
-"")
+                                      "    border: 2px solid #FFFFFF;\n"
+                                      "}\n"
+                                      "")
         self.lineEdit_3.setClearButtonEnabled(True)
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.search = QtWidgets.QPushButton(self.frame)
@@ -166,17 +165,8 @@ class Ui_MainWindow(object):
         self.search.setText(_translate("MainWindow", "Search"))
         self.homeButton.setText(_translate("MainWindow", "Home"))
         self.exportPdfButton.setText(_translate("MainWindow", "Export PDF"))
-        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline;\">R E C O R D S</span></p></body></html>"))
+        self.label_4.setText(_translate("MainWindow",
+                                        "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline;\">R E C O R D S</span></p></body></html>"))
         self.label_5.setText(_translate("MainWindow", "D y s I M A L"))
-        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Dyscalculia Immediate Mode of Assessment in Learning System</p></body></html>"))
-
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+        self.label_6.setText(_translate("MainWindow",
+                                        "<html><head/><body><p align=\"center\">Dyscalculia Immediate Mode of Assessment in Learning System</p></body></html>"))

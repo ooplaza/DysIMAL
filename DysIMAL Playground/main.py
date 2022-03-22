@@ -4,10 +4,11 @@
 # Importing all the necessary files/modules to be include in the main program
 from PyQt5.QtWidgets import QApplication
 from ExamQuestionnaire import *
-from TakeTestAndRecordsUI import *
+from TakeTestRecordsUI import *
 from StudentProfile import *
-from records2 import *
+from records1 import *
 from WelcomeUI import *
+import sys
 
 
 class main:
@@ -46,7 +47,7 @@ class main:
 
     def get_records(self):
         self.search_records.setupUi(self.mainWindow)
-        self.search_records.pushButton_3.clicked.connect(self.display_welcome)
+        #self.search_records.pushButton_3.clicked.connect(self.display_welcome)
 
 
 if __name__ == "__main__":

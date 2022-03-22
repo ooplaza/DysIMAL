@@ -9,52 +9,70 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import sys
+import Welcomeqrc
 
 
-class WelcomeUI(object):
+class WelcomeUI:
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 480)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
-        self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(0, 0, 800, 480))
-        self.frame.setLayoutDirection(QtCore.Qt.RightToLeft)
-        self.frame.setStyleSheet("background-color: rgb(170, 255, 255);")
-        self.frame.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame.setObjectName("frame")
-        self.pushButton = QtWidgets.QPushButton(self.frame)
-        self.pushButton.setGeometry(QtCore.QRect(310, 280, 181, 61))
-        font = QtGui.QFont()
-        font.setPointSize(15)
-        font.setBold(True)
-        font.setWeight(75)
-        self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("QPushButton:hover{\n"
-"    background-color: rgb(170, 170, 255);\n"
-"}")
-        self.pushButton.setFlat(False)
-        self.pushButton.setObjectName("pushButton")
-        self.label = QtWidgets.QLabel(self.frame)
-        self.label.setGeometry(QtCore.QRect(270, 10, 291, 61))
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(210, 60, 391, 141))
         font = QtGui.QFont()
         font.setFamily("After Disaster")
-        font.setPointSize(40)
+        font.setPointSize(75)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
         self.label.setFont(font)
-        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setAcceptDrops(False)
+        self.label.setLayoutDirection(QtCore.Qt.RightToLeft)
+        self.label.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
         self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(self.frame)
-        self.label_2.setGeometry(QtCore.QRect(220, 70, 391, 20))
+        self.frame_3 = QtWidgets.QFrame(self.centralwidget)
+        self.frame_3.setGeometry(QtCore.QRect(260, 350, 301, 61))
+        self.frame_3.setToolTip("")
+        self.frame_3.setStyleSheet("background-color: rgb(19, 174, 178);\n"
+"border-radius: 20px;")
+        self.frame_3.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_3.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_3.setObjectName("frame_3")
+        self.pushButton = QtWidgets.QPushButton(self.frame_3)
+        self.pushButton.setGeometry(QtCore.QRect(10, 10, 281, 41))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton.setFont(font)
+        self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft)
+        self.pushButton.setStyleSheet("QPushButton:hover{\n"
+"    background-color: rgb(255, 255, 255);\n"
+"}")
+        self.pushButton.setCheckable(False)
+        self.pushButton.setFlat(False)
+        self.pushButton.setObjectName("pushButton")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(160, 200, 491, 20))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.frame = QtWidgets.QFrame(self.centralwidget)
+        self.frame.setGeometry(QtCore.QRect(0, 0, 800, 480))
+        self.frame.setStyleSheet("image: url(:/background/WelcomeBackground.png);")
+        self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame.setObjectName("frame")
+        self.frame.raise_()
+        self.label.raise_()
+        self.frame_3.raise_()
+        self.label_3.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -66,24 +84,10 @@ class WelcomeUI(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setToolTip(_translate("MainWindow", "click to start bitch"))
+        self.label.setText(_translate("MainWindow", "DsyIMAL"))
         self.pushButton.setText(_translate("MainWindow", "WELCOME"))
-        self.label.setText(_translate("MainWindow", "DysIMAL"))
-        self.label_2.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment Learning System"))
-
-    def get_hide_widgets_from_welcomeUI(self):
-        """This methods is responsible from hiding all the widget from this window"""
-        widgets = [self.frame, self.label, self.label_2, self.pushButton, self.centralwidget]
-        for widget in widgets:
-            widget.hide()
-
-    def get_show_widgets_from_welcomeUI(self):
-        """This methods is responsible from hiding all the widget from this window"""
-        widgets = [self.frame, self.label, self.label_2, self.pushButton, self.centralwidget]
-        for widget in widgets:
-            widget.show()
-
-
+        self.label_3.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment Learning System"))

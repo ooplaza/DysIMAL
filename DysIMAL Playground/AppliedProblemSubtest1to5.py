@@ -11,21 +11,22 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class AppliedProblemSubtest1To5:
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 480)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(10, 10, 780, 480))
+        self.frame.setGeometry(QtCore.QRect(-1, 10, 800, 480))
         self.frame.setStyleSheet("background-color: rgb(180, 203, 253);")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
         self.label = QtWidgets.QLabel(self.frame)
-        self.label.setGeometry(QtCore.QRect(250, 0, 301, 20))
+        self.label.setGeometry(QtCore.QRect(140, 0, 531, 20))
         font = QtGui.QFont()
+        font.setPointSize(12)
         font.setBold(True)
         font.setUnderline(False)
         font.setWeight(75)
@@ -33,27 +34,6 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setWordWrap(False)
         self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(self.frame)
-        self.label_2.setGeometry(QtCore.QRect(250, 20, 301, 20))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setUnderline(False)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setWordWrap(False)
-        self.label_2.setObjectName("label_2")
-        self.label_3 = QtWidgets.QLabel(self.frame)
-        self.label_3.setGeometry(QtCore.QRect(10, 40, 91, 31))
-        font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(12)
-        font.setBold(True)
-        font.setUnderline(True)
-        font.setWeight(75)
-        self.label_3.setFont(font)
-        self.label_3.setMouseTracking(False)
-        self.label_3.setObjectName("label_3")
         self.frame_2 = QtWidgets.QFrame(self.frame)
         self.frame_2.setGeometry(QtCore.QRect(10, 120, 761, 291))
         self.frame_2.setStyleSheet("background-color: rgb(218, 229, 255);\n"
@@ -154,8 +134,8 @@ class Ui_MainWindow(object):
         self.label_4 = QtWidgets.QLabel(self.frame)
         self.label_4.setGeometry(QtCore.QRect(270, 90, 261, 31))
         font = QtGui.QFont()
-        font.setFamily("Baskerville Old Face")
-        font.setPointSize(12)
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
         font.setBold(True)
         font.setUnderline(False)
         font.setWeight(75)
@@ -163,6 +143,17 @@ class Ui_MainWindow(object):
         self.label_4.setMouseTracking(False)
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
+        self.label_3 = QtWidgets.QLabel(self.frame)
+        self.label_3.setGeometry(QtCore.QRect(20, 40, 91, 31))
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setUnderline(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setMouseTracking(False)
+        self.label_3.setObjectName("label_3")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
@@ -178,9 +169,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in "))
-        self.label_2.setText(_translate("MainWindow", "Learning System"))
-        self.label_3.setText(_translate("MainWindow", "Directions:"))
+        self.label.setText(_translate("MainWindow", "Dyscalculia Immediate Mode of Assesment in Learning System"))
         self.label_5.setText(_translate("MainWindow", "1. The teacher ordered 23 hotdogs and 45 hamburgers for the students’ lunch.\n"
 " How many more hamburgers are there than hotdogs?"))
         self.label_6.setText(_translate("MainWindow", "2. There are 51 students in Mr. Stevens\' class. There are 13 fewer students in Mrs. Patel\'s \n"
@@ -192,6 +181,7 @@ class Ui_MainWindow(object):
         self.pushButton.setText(_translate("MainWindow", "Back"))
         self.pushButton_2.setText(_translate("MainWindow", "Next"))
         self.label_4.setText(_translate("MainWindow", "Applied Problem Subtest"))
+        self.label_3.setText(_translate("MainWindow", "Directions:"))
 
 
 if __name__ == "__main__":
