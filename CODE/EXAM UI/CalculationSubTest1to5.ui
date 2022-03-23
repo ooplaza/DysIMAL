@@ -177,101 +177,264 @@ border-radius: 10px;</string>
        <bool>false</bool>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QRadioButton" name="radioButton">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>190</x>
         <y>10</y>
-        <width>661</width>
-        <height>20</height>
+        <width>82</width>
+        <height>17</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit {
-	border: 2px solid #FFFFFF;
-}
-
-QLineEdit:focus{
-	border: 2px solid #000000
-}</string>
+      <property name="text">
+       <string>A. 5256</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QRadioButton" name="radioButton_2">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>280</x>
+        <y>10</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>B. 519</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>10</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>C. 531</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>10</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D. 535</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_5">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
         <y>50</y>
-        <width>661</width>
-        <height>20</height>
+        <width>82</width>
+        <height>17</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit {
-	border: 2px solid #FFFFFF;
-}
-
-QLineEdit:focus{
-	border: 2px solid #000000
-}</string>
+      <property name="text">
+       <string>A. 33</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QRadioButton" name="radioButton_6">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>280</x>
+        <y>50</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>B. 51</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_7">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>C. 429</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_8">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>50</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D. 50</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_9">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
         <y>90</y>
-        <width>661</width>
-        <height>20</height>
+        <width>82</width>
+        <height>17</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit {
-	border: 2px solid #FFFFFF;
-}
-
-QLineEdit:focus{
-	border: 2px solid #000000
-}</string>
+      <property name="text">
+       <string>A. 20</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QRadioButton" name="radioButton_10">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>280</x>
+        <y>90</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>B. 18</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_11">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>90</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>C. 17</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_12">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>90</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D. 19</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_13">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
         <y>130</y>
-        <width>661</width>
-        <height>20</height>
+        <width>82</width>
+        <height>17</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit {
-	border: 2px solid #FFFFFF;
-}
-
-QLineEdit:focus{
-	border: 2px solid #000000
-}
-</string>
+      <property name="text">
+       <string>A. 50</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_5">
+     <widget class="QRadioButton" name="radioButton_14">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>170</y>
-        <width>661</width>
-        <height>20</height>
+        <x>280</x>
+        <y>130</y>
+        <width>82</width>
+        <height>17</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit {
-	border: 2px solid #FFFFFF;
-}
-
-QLineEdit:focus{
-	border: 2px solid #000000
-}
-</string>
+      <property name="text">
+       <string>B. 51</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_15">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>130</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>C. 60</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_16">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>130</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D. 61</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_17">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>170</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>A. 18</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_18">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>170</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>B. 70</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_19">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>170</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>C. 77</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_20">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>170</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D. 84</string>
       </property>
      </widget>
     </widget>
@@ -330,12 +493,12 @@ QLineEdit:focus{
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
+    <widget class="QLabel" name="label_16">
      <property name="geometry">
       <rect>
        <x>10</x>
        <y>40</y>
-       <width>91</width>
+       <width>281</width>
        <height>31</height>
       </rect>
      </property>
@@ -345,14 +508,14 @@ QLineEdit:focus{
        <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
-       <underline>true</underline>
+       <underline>false</underline>
       </font>
      </property>
      <property name="mouseTracking">
       <bool>false</bool>
      </property>
      <property name="text">
-      <string>Directions:</string>
+      <string>Directions: Solve the following equations.</string>
      </property>
     </widget>
    </widget>
@@ -363,7 +526,7 @@ QLineEdit:focus{
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

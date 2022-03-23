@@ -17,7 +17,7 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>-1</x>
+      <x>0</x>
       <y>0</y>
       <width>800</width>
       <height>480</height>
@@ -37,7 +37,7 @@
       <rect>
        <x>10</x>
        <y>120</y>
-       <width>761</width>
+       <width>771</width>
        <height>291</height>
       </rect>
      </property>
@@ -56,12 +56,12 @@ border-radius: 20px;</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>741</width>
-        <height>21</height>
+        <width>211</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>6.Write the 6-digit number.100,000 + 30,000 + 3,000 + 600 + 4 = </string>
+       <string>7. Supply the missing term. 24/80 = x/10</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_6">
@@ -69,78 +69,25 @@ border-radius: 20px;</string>
        <rect>
         <x>10</x>
         <y>50</y>
-        <width>741</width>
-        <height>21</height>
+        <width>271</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>7.Write the 5-digit number with decimals.50 + 5 + 0.2 + 0.06 + 0.006 = </string>
+       <string>8. Supply the missing term. 4/28 = 1/x</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>90</y>
-        <width>741</width>
+        <y>170</y>
+        <width>311</width>
         <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>8.Write the 6-digit number with decimals. 6,000 + 400 + 70 + 9 + 0.6 + 0.08 = </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>130</y>
-        <width>741</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>9.Round to the nearest ten. 827 = </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>160</y>
-        <width>741</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>10.Round to the nearest hundred. 7,944 =</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>240</y>
-        <width>111</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="cursor">
-       <cursorShape>PointingHandCursor</cursorShape>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(180, 203, 253);
-border-radius: 10px;</string>
-      </property>
-      <property name="text">
-       <string>Back</string>
+       <string>10.Write the name of the shaded part of the figure as percent.</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_2">
@@ -177,273 +124,280 @@ border-radius: 10px;</string>
        <bool>false</bool>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
      <widget class="QRadioButton" name="radioButton">
       <property name="geometry">
        <rect>
-        <x>390</x>
-        <y>10</y>
+        <x>280</x>
+        <y>60</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>A. 133,640</string>
+       <string>A.  6</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_2">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>10</y>
+        <x>380</x>
+        <y>60</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>B. 136,640</string>
+       <string>B. 7</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_3">
       <property name="geometry">
        <rect>
-        <x>570</x>
-        <y>10</y>
+        <x>480</x>
+        <y>60</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>C. 136, 604</string>
+       <string>C. 8</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_4">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>10</y>
+        <x>580</x>
+        <y>60</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>D. 133,604</string>
+       <string>D. 9</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_5">
       <property name="geometry">
        <rect>
-        <x>390</x>
-        <y>50</y>
+        <x>280</x>
+        <y>20</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>A. 55.265</string>
+       <string>A. 1</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_6">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>50</y>
+        <x>380</x>
+        <y>20</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>B. 55.555</string>
+       <string>B. 2</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_7">
       <property name="geometry">
        <rect>
-        <x>570</x>
-        <y>50</y>
+        <x>480</x>
+        <y>20</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>C. 55.266</string>
+       <string>C. 3</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_8">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>50</y>
+        <x>580</x>
+        <y>20</y>
         <width>82</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>D. 55.656</string>
+       <string>D. 4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>9. Write the name of the shaded part of the figure as percent.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>181</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../FIGURES/3.1.png">:/3.1/8 and 9.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_9">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>90</y>
-        <width>82</width>
+        <x>10</x>
+        <y>140</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>A. 6,479.86</string>
+       <string>A. 20</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_10">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>90</y>
-        <width>82</width>
+        <x>80</x>
+        <y>140</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>B. 6,480.90</string>
+       <string>B. 30</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_11">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>90</y>
-        <width>82</width>
+        <x>140</x>
+        <y>140</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>C. 6,479.68</string>
+       <string>C.40</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_12">
+     <widget class="QRadioButton" name="radioButton_23">
       <property name="geometry">
        <rect>
-        <x>680</x>
-        <y>90</y>
-        <width>82</width>
+        <x>200</x>
+        <y>140</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>D. 6,480.68</string>
+       <string>D. 50</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_13">
+     <widget class="QRadioButton" name="radioButton_24">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>130</y>
-        <width>82</width>
+        <x>10</x>
+        <y>200</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>A. 820</string>
+       <string>A. 100</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_14">
+     <widget class="QRadioButton" name="radioButton_25">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>130</y>
-        <width>82</width>
+        <x>80</x>
+        <y>200</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>B. 830</string>
+       <string>B. 60</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_15">
+     <widget class="QRadioButton" name="radioButton_26">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>130</y>
-        <width>82</width>
+        <x>140</x>
+        <y>200</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>C. 840</string>
+       <string>C. 40</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_16">
+     <widget class="QRadioButton" name="radioButton_27">
       <property name="geometry">
        <rect>
-        <x>680</x>
-        <y>130</y>
-        <width>82</width>
+        <x>200</x>
+        <y>200</y>
+        <width>51</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>D. 850</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_17">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>170</y>
-        <width>82</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>A. 7,900</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_18">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>170</y>
-        <width>82</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>B. 8,000</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_19">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>170</y>
-        <width>82</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>D. 8,100</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_20">
-      <property name="geometry">
-       <rect>
-        <x>680</x>
-        <y>170</y>
-        <width>82</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>D. 7,800</string>
+       <string>D. 50</string>
       </property>
      </widget>
     </widget>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>250</x>
        <y>90</y>
-       <width>261</width>
+       <width>301</width>
        <height>31</height>
       </rect>
      </property>
@@ -460,7 +414,7 @@ border-radius: 10px;</string>
       <bool>false</bool>
      </property>
      <property name="text">
-      <string>Math Fluency Subtest</string>
+      <string>Number Matrices/Figures Subtest</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -469,7 +423,7 @@ border-radius: 10px;</string>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>140</x>
        <y>0</y>
        <width>521</width>
        <height>20</height>
@@ -515,7 +469,7 @@ border-radius: 10px;</string>
       <bool>false</bool>
      </property>
      <property name="text">
-      <string>Directions: Given the equation, operate the following problems.</string>
+      <string>Directions: Using the figures given, provide what is being asked.</string>
      </property>
     </widget>
    </widget>
@@ -532,6 +486,9 @@ border-radius: 10px;</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../FIGURES/3.1.png"/>
+  <include location="../../../../Program Files (x86)/FIGURES/3.1.png"/>
+ </resources>
  <connections/>
 </ui>
