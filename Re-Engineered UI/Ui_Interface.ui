@@ -1392,7 +1392,7 @@ border-radius: 10px;</string>
                  <item>
                   <widget class="QStackedWidget" name="stackedWidget_2">
                    <property name="currentIndex">
-                    <number>0</number>
+                    <number>4</number>
                    </property>
                    <widget class="QWidget" name="calculation1to5">
                     <layout class="QHBoxLayout" name="horizontalLayout_11">
@@ -1855,7 +1855,7 @@ QLineEdit:focus{
                        <widget class="QLabel" name="label_30">
                         <property name="geometry">
                          <rect>
-                          <x>230</x>
+                          <x>240</x>
                           <y>10</y>
                           <width>261</width>
                           <height>31</height>
@@ -2345,7 +2345,7 @@ QLineEdit:focus{
                        <widget class="QLabel" name="label_37">
                         <property name="geometry">
                          <rect>
-                          <x>230</x>
+                          <x>240</x>
                           <y>10</y>
                           <width>261</width>
                           <height>31</height>
@@ -2418,7 +2418,2142 @@ border-radius: 10px;</string>
                      </item>
                     </layout>
                    </widget>
-                   <widget class="QWidget" name="page_3"/>
+                   <widget class="QWidget" name="calculation11to15">
+                    <layout class="QVBoxLayout" name="verticalLayout_18">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_36">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 20px;</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QPushButton" name="pushButton_6">
+                        <property name="geometry">
+                         <rect>
+                          <x>620</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-right.svg</normaloff>:/icons/ICONS/corner-down-right.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                       <widget class="QLabel" name="label_38">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>60</y>
+                          <width>281</width>
+                          <height>21</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>9</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Directions: Solve the following equations.</string>
+                        </property>
+                       </widget>
+                       <widget class="QFrame" name="frame_38">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>90</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_12">
+                         <property name="geometry">
+                          <rect>
+                           <x>150</x>
+                           <y>0</y>
+                           <width>571</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_39">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>131</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>11.  40/77 - 15/77 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_39">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>140</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_13">
+                         <property name="geometry">
+                          <rect>
+                           <x>150</x>
+                           <y>0</y>
+                           <width>571</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_40">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>121</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>12. 19/22 - 10/22 =  </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_40">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>190</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_14">
+                         <property name="geometry">
+                          <rect>
+                           <x>150</x>
+                           <y>0</y>
+                           <width>571</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_41">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>101</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>13.  2/3 x 2/5 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_41">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>240</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_15">
+                         <property name="geometry">
+                          <rect>
+                           <x>150</x>
+                           <y>0</y>
+                           <width>571</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_42">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>91</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>14. 1/6 x 3/5 =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_42">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>290</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_16">
+                         <property name="geometry">
+                          <rect>
+                           <x>150</x>
+                           <y>0</y>
+                           <width>571</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_43">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>101</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>15. 3/4 ÷ 6/7 =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QLabel" name="label_44">
+                        <property name="geometry">
+                         <rect>
+                          <x>240</x>
+                          <y>10</y>
+                          <width>261</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Calculation Sub Test</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                       <widget class="QPushButton" name="pushButton_7">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Back</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-left.svg</normaloff>:/icons/ICONS/corner-down-left.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="mathFluency1to5">
+                    <layout class="QVBoxLayout" name="verticalLayout_22">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_43">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 20px;</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QPushButton" name="pushButton_8">
+                        <property name="geometry">
+                         <rect>
+                          <x>620</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-right.svg</normaloff>:/icons/ICONS/corner-down-right.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                       <widget class="QLabel" name="label_45">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>60</y>
+                          <width>281</width>
+                          <height>21</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>9</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Directions: Solve the following equations.</string>
+                        </property>
+                       </widget>
+                       <widget class="QFrame" name="frame_44">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>90</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_17">
+                         <property name="geometry">
+                          <rect>
+                           <x>300</x>
+                           <y>0</y>
+                           <width>421</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_46">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>131</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>1. (19 + 7) – 6 + 5 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_45">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>140</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_18">
+                         <property name="geometry">
+                          <rect>
+                           <x>300</x>
+                           <y>0</y>
+                           <width>421</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_47">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>151</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>2. 84 + 6 - (14 – 8) + 2 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_46">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>190</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_19">
+                         <property name="geometry">
+                          <rect>
+                           <x>300</x>
+                           <y>0</y>
+                           <width>421</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_48">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>121</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>3. 16 x 2 ÷ (6 ÷ 2) = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_47">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>240</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_20">
+                         <property name="geometry">
+                          <rect>
+                           <x>300</x>
+                           <y>0</y>
+                           <width>421</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_49">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>10</y>
+                           <width>121</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>4. (36 ÷ 4) x 2 ÷ 2 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_48">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>290</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_21">
+                         <property name="geometry">
+                          <rect>
+                           <x>300</x>
+                           <y>0</y>
+                           <width>421</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_50">
+                         <property name="geometry">
+                          <rect>
+                           <x>10</x>
+                           <y>0</y>
+                           <width>291</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>5. Write the 5-digit number.30,000 + 100 + 410 =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QLabel" name="label_51">
+                        <property name="geometry">
+                         <rect>
+                          <x>240</x>
+                          <y>10</y>
+                          <width>261</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Math Fluency Subtest</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                       <widget class="QPushButton" name="pushButton_9">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Back</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-left.svg</normaloff>:/icons/ICONS/corner-down-left.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="mathFluency6to10">
+                    <layout class="QVBoxLayout" name="verticalLayout_23">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_49">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 20px;</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QPushButton" name="pushButton_10">
+                        <property name="geometry">
+                         <rect>
+                          <x>620</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-right.svg</normaloff>:/icons/ICONS/corner-down-right.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                       <widget class="QLabel" name="label_52">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>60</y>
+                          <width>281</width>
+                          <height>21</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>9</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Directions: Solve the following equations.</string>
+                        </property>
+                       </widget>
+                       <widget class="QFrame" name="frame_50">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>90</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_22">
+                         <property name="geometry">
+                          <rect>
+                           <x>390</x>
+                           <y>0</y>
+                           <width>331</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_57">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>381</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>6.Write the 6-digit number.100,000 + 30,000 + 3,000 + 600 + 4 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_51">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>140</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_23">
+                         <property name="geometry">
+                          <rect>
+                           <x>420</x>
+                           <y>0</y>
+                           <width>301</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_56">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>411</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>7.Write the 5-digit number with decimals.50 + 5 + 0.2 + 0.06 + 0.006 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_52">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>190</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_24">
+                         <property name="geometry">
+                          <rect>
+                           <x>460</x>
+                           <y>0</y>
+                           <width>261</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_55">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>451</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>8.Write the 6-digit number with decimals. 6,000 + 400 + 70 + 9 + 0.6 + 0.08 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_53">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>240</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_25">
+                         <property name="geometry">
+                          <rect>
+                           <x>210</x>
+                           <y>0</y>
+                           <width>511</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_54">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>201</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>9.Round to the nearest ten. 827 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_54">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>290</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_26">
+                         <property name="geometry">
+                          <rect>
+                           <x>250</x>
+                           <y>0</y>
+                           <width>471</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_53">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>0</y>
+                           <width>241</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>10.Round to the nearest hundred. 7,944 =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QLabel" name="label_58">
+                        <property name="geometry">
+                         <rect>
+                          <x>240</x>
+                          <y>10</y>
+                          <width>261</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Math Fluency Subtest</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                       <widget class="QPushButton" name="pushButton_11">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Back</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-left.svg</normaloff>:/icons/ICONS/corner-down-left.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="mathFluency11to15">
+                    <layout class="QVBoxLayout" name="verticalLayout_24">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_55">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 20px;</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QPushButton" name="pushButton_12">
+                        <property name="geometry">
+                         <rect>
+                          <x>620</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-right.svg</normaloff>:/icons/ICONS/corner-down-right.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                       <widget class="QLabel" name="label_59">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>60</y>
+                          <width>281</width>
+                          <height>21</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>9</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Directions: Solve the following equations.</string>
+                        </property>
+                       </widget>
+                       <widget class="QFrame" name="frame_56">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>90</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_27">
+                         <property name="geometry">
+                          <rect>
+                           <x>260</x>
+                           <y>0</y>
+                           <width>461</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_60">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>261</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>11. Round to the nearest thousand.18,591 =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_57">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>140</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_28">
+                         <property name="geometry">
+                          <rect>
+                           <x>200</x>
+                           <y>0</y>
+                           <width>521</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_61">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>201</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>12. Write 8/10 in simplest form. = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_58">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>190</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_29">
+                         <property name="geometry">
+                          <rect>
+                           <x>200</x>
+                           <y>0</y>
+                           <width>521</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_62">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>201</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>13. Write 4/16 in simplest form. =</string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_59">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>240</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_30">
+                         <property name="geometry">
+                          <rect>
+                           <x>160</x>
+                           <y>0</y>
+                           <width>561</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_63">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>10</y>
+                           <width>151</width>
+                           <height>21</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>14. What is 78% of 100 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QFrame" name="frame_60">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>290</y>
+                          <width>721</width>
+                          <height>41</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(218, 229, 255);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLineEdit" name="lineEdit_31">
+                         <property name="geometry">
+                          <rect>
+                           <x>140</x>
+                           <y>0</y>
+                           <width>581</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>10</pointsize>
+                          </font>
+                         </property>
+                         <property name="toolTip">
+                          <string/>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLineEdit {
+	border: 2px solid #FFFFFF;
+}
+
+QLineEdit:focus{
+	border: 2px solid #000000
+}</string>
+                         </property>
+                         <property name="frame">
+                          <bool>true</bool>
+                         </property>
+                         <property name="cursorPosition">
+                          <number>0</number>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="clearButtonEnabled">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                        <widget class="QLabel" name="label_64">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>0</y>
+                           <width>141</width>
+                           <height>41</height>
+                          </rect>
+                         </property>
+                         <property name="text">
+                          <string>15. What is 25% of 12 = </string>
+                         </property>
+                        </widget>
+                       </widget>
+                       <widget class="QLabel" name="label_65">
+                        <property name="geometry">
+                         <rect>
+                          <x>240</x>
+                          <y>10</y>
+                          <width>261</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Times New Roman</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <underline>false</underline>
+                         </font>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>Math Fluency Subtest</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                       <widget class="QPushButton" name="pushButton_13">
+                        <property name="geometry">
+                         <rect>
+                          <x>10</x>
+                          <y>340</y>
+                          <width>111</width>
+                          <height>31</height>
+                         </rect>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>10</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                          <kerning>true</kerning>
+                         </font>
+                        </property>
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(180, 203, 253);
+border-radius: 10px;</string>
+                        </property>
+                        <property name="text">
+                         <string>Back</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="icon.qrc">
+                          <normaloff>:/icons/ICONS/corner-down-left.svg</normaloff>:/icons/ICONS/corner-down-left.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="autoDefault">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
                    <widget class="QWidget" name="page_4"/>
                    <widget class="QWidget" name="page_5"/>
                    <widget class="QWidget" name="page_6"/>

@@ -50,6 +50,7 @@ class MainWindow(QMainWindow):
         self.ui.examBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.examPage))
         self.ui.recordsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.recordsPage))
         self.ui.devsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.DevtPage))
+        self.Exam_NextBtn()
 
     def slideLeftMenu(self):
         """This Methods is responsible for animating the left menu frame"""
@@ -65,6 +66,23 @@ class MainWindow(QMainWindow):
         animation.setEndValue(newWidth)
         animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
         animation.start()
+
+    def Exam_NextBtn(self):
+        """This Methods is responsible for all the buttons inside the stackWidget_2"""
+        # When submit button hits then it will automatically redirected to Exam Page / UI
+        # Need To polish
+        self.ui.pushButton_3.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation6to10))
+        self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
+        self.ui.pushButton_4.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation11to15))
+        self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
+        self.ui.pushButton_6.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency1to5))
+        self.ui.pushButton_7.clicked.connect(lambda:self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation6to10))
+        self.ui.pushButton_8.clicked.connect(lambda:self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency6to10))
+        self.ui.pushButton_9.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation11to15))
+        self.ui.pushButton_10.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency11to15))
+        self.ui.pushButton_11.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency1to5))
+        self.ui.pushButton_12.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
+        self.ui.pushButton_13.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency6to10))
 
     def slideLeftMenu_trigger(self):
         """This Methods will trigger Slide Animation"""
