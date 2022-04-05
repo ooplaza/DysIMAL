@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DysIMAL.iml" filepath="$PROJECT_DIR$/.idea/DysIMAL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AnimatedSlideMenu.iml" filepath="$PROJECT_DIR$/.idea/AnimatedSlideMenu.iml" />
     </modules>
   </component>
 </project>

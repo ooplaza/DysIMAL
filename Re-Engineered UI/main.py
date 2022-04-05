@@ -1,9 +1,8 @@
-# IMPORTING ESSENTIALS
-from PySide2 import QtCore
-from PySide2.QtCore import QPropertyAnimation, Qt
-from PySide2.QtGui import QColor
-from PySide2.QtWidgets import QMainWindow, QApplication, QGraphicsDropShadowEffect, QSizeGrip
-from ApplicationUI import *
+from Custom_Widgets.Widgets import loadJsonStyle
+from PySide2.QtCore import QFileInfo
+from PySide2.QtPrintSupport import QPrinter
+from PySide2.QtWidgets import QMainWindow, QApplication, QSizeGrip, QFileDialog
+from Application import *
 import sys
 
 
@@ -13,102 +12,87 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        # methods calling
-        self.settingUp_mainWindow()
-        self.stackWidgets_behavior()
-        self.slideLeftMenu_trigger()
+        # METHODS CALLING
+        ################################################################################################################
+        self.animate_sideMenu()
+        self.export_buttons_functionality()
+        self.windows_Configuration()
+        self.stackWidget_Behaviour()
+        self.all_Exam_buttons_functionality()
+        ################################################################################################################
 
-    def settingUp_mainWindow(self):
-        """This methods is resposible for setting and removing the necessary in the MainWindow"""
-
-        # Removing the window title bar (since we're using custom layout)
+    def windows_Configuration(self):
+        """THIS METHOD IS RESPONSIBLE FOR WINDOWS CONFIGURATION."""
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
-        # Setting the main background to transparent
-        self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
-        # Applying Shadow Style Effect
-        shadow = QGraphicsDropShadowEffect(self)
-        shadow.setBlurRadius(50)
-        shadow.setYOffset(0)
-        shadow.setXOffset(0)
-        shadow.setColor(QColor(0, 92, 157, 550))
-        # Applying the shadow style to the central widgets
-        self.ui.centralwidget.setGraphicsEffect(shadow)
-        self.setWindowTitle("DysIMAL")
-
-        # Using this line it will resize the whole window
-        QSizeGrip(self.ui.sizeGrip)
-
-        # Windows Behavior (close, minimize, restore)
-        self.ui.minimizeBtn.clicked.connect(lambda: self.showMinimized())
-        self.ui.closeBtn.clicked.connect(lambda: self.close())
-        self.ui.restoreBtn.clicked.connect(lambda: self.restore_or_maximize_window())
-
-    def stackWidgets_behavior(self):
-        """This methods is responsible for navigating the stack widgets."""
-        self.ui.studentProfileBtn.clicked.connect(
-            lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.studentProfilePage))
-        self.ui.examBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.examPage))
-        self.ui.recordsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.recordsPage))
-        self.ui.devsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.DevtPage))
-        self.Exam_NextBtn()
-
-    def slideLeftMenu(self):
-        """This Methods is responsible for animating the left menu frame"""
-        width = self.ui.leftMenu.width()
-        if width == 40:
-            # Expand the width by giving the new Width
-            newWidth = 220
-        else:
-            newWidth = 40
-        animation = QPropertyAnimation(self.ui.leftMenu, b"minimumWidth")
-        animation.setDuration(250)
-        animation.setStartValue(width)
-        animation.setEndValue(newWidth)
-        animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
-        animation.start()
-
-    def Exam_NextBtn(self):
-        """This Methods is responsible for all the buttons inside the stackWidget_2"""
-        # When submit button hits then it will automatically redirected to Exam Page / UI
-        # Need To polish
-        self.ui.pushButton_3.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation6to10))
-        self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
-        self.ui.pushButton_4.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation11to15))
-        self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
-        self.ui.pushButton_6.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency1to5))
-        self.ui.pushButton_7.clicked.connect(lambda:self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation6to10))
-        self.ui.pushButton_8.clicked.connect(lambda:self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency6to10))
-        self.ui.pushButton_9.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation11to15))
-        self.ui.pushButton_10.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency11to15))
-        self.ui.pushButton_11.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency1to5))
-        self.ui.pushButton_12.clicked.connect(lambda :self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculation1to5))
-        self.ui.pushButton_13.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluency6to10))
-
-    def slideLeftMenu_trigger(self):
-        """This Methods will trigger Slide Animation"""
-        self.ui.menuBtn.clicked.connect(lambda: self.slideLeftMenu())
+        self.ui.pushButton_6.clicked.connect(lambda: self.showMinimized())
+        self.ui.pushButton_7.clicked.connect(lambda: self.restore_or_maximize_window())
+        self.ui.pushButton_8.clicked.connect(lambda: self.close())
+        QSizeGrip(self.ui.sigeGrip)
 
     def restore_or_maximize_window(self):
         """This methods is responsible for resizing the Screen of the MainWindow"""
         if self.isMaximized():
             self.showNormal()
-            self.ui.recordsBtn.setIcon(QtGui.QIcon(u":/icons/ICONS/square.svg"))
+            self.ui.pushButton_7.setIcon(QtGui.QIcon(u":/icons/1CON/square.svg"))
         else:
             self.showMaximized()
-            self.ui.recordsBtn.setIcon(QtGui.QIcon(u":/icons/ICONS/copy.svg"))
+            self.ui.pushButton_7.setIcon(QtGui.QIcon(u":/icons/1CON/copy.svg"))
 
-    # def moveWindow(self, e):
-    #     if self.isMaximized() == False:
-    #         if e.buttons() == Qt.LeftButton:
-    #             self.move(self.pos() - e.globalPos() - self.clickPostion)
-    #             e.accept()
-    #
-    # def mousePressEvents(self, event):
-    #     self.clickPostion = event.globalPos()
+    def stackWidget_Behaviour(self):
+        """THIS METHOD IS RESPONSIBLE FOR STACKWIDGET BEHAVIOR."""
+        self.ui.studentProfileBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.ProfilePage))
+        self.ui.takeTestBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.ExamPage))
+        self.ui.recordsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.RecordsPage))
+        self.ui.devsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.DevtPage))
+
+    def animate_sideMenu(self):
+        """THIS METHOD IS RESPONSIBLE FOR ANIMATING THE SIDE MENU."""
+        loadJsonStyle(self, self.ui)
+
+    def export_buttons_functionality(self):
+        """THIS METHOD WILL TRIGGER THE Export_PDF()"""
+        self.ui.exportPdfBtn.clicked.connect(self.Export_PDF)
+
+    def Export_PDF(self):
+        """THIS METHOD IS RESPONSIBLE FOR EXPORTING ANY DATA COMING FROM TEXTEDIT FUNCTION"""
+        fn, _ = QFileDialog.getSaveFileName(self, 'Export PDF', None, 'PDF files (.pdf);;All Files()')
+        if fn != '':
+            if QFileInfo(fn).suffix() == "": fn += '.pdf'
+            printer = QPrinter(QPrinter.HighResolution)
+            printer.setOutputFormat(QPrinter.PdfFormat)
+            printer.setOutputFileName(fn)
+            self.ui.textEdit.document().print_(printer)
+
+    def all_Exam_buttons_functionality(self):
+        """THIS METHOD IS RESPONSIBLE FOR ALL THE BUTTONS FUNCTIONALITY."""
+        # NEXT FUNCTIONALITY
+        self.ui.submitBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.ExamPage))
+        self.ui.pushButton_3.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest6to10))
+        self.ui.pushButton_4.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest11to15))
+        self.ui.pushButton_9.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest1to5))
+        self.ui.pushButton_11.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest6to10))
+        self.ui.pushButton_13.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest11to15))
+        self.ui.pushButton_15.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices1to3))
+        self.ui.pushButton_21.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices4to6))
+        self.ui.pushButton_23.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices7to10))
+        self.ui.pushButton_25.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.applied1to5))
+        self.ui.pushButton_17.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.applied6to10))
+
+        # BACK FUNCTIONALITY
+        self.ui.pushButton_20.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.applied1to5))
+        self.ui.pushButton_18.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices7to10))
+        self.ui.pushButton_26.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices4to6))
+        self.ui.pushButton_24.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.matrices1to3))
+        self.ui.pushButton_22.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest11to15))
+        self.ui.pushButton_16.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest6to10))
+        self.ui.pushButton_14.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest1to5))
+        self.ui.pushButton_12.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest11to15))
+        self.ui.pushButton_10.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest6to10))
+        self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest1to5))
 
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    screen = MainWindow()
-    screen.show()
-    sys.exit(app.exec_())
+
+app = QApplication(sys.argv)
+screen = MainWindow()
+screen.show()
+sys.exit(app.exec_())
