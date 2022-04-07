@@ -91,7 +91,6 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest1to5))
 
 
-
 app = QApplication(sys.argv)
 screen = MainWindow()
 screen.show()

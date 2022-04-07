@@ -474,7 +474,7 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>4</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="ProfilePage">
              <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -898,7 +898,7 @@ border-radius: 10px;</string>
                       <set>Qt::AlignCenter</set>
                      </property>
                     </widget>
-                    <widget class="QLineEdit" name="studentFirstName_7">
+                    <widget class="QLineEdit" name="studentAge">
                      <property name="geometry">
                       <rect>
                        <x>70</x>
@@ -7107,7 +7107,7 @@ border-radius: 10px;</string>
                 <x>20</x>
                 <y>80</y>
                 <width>626</width>
-                <height>91</height>
+                <height>81</height>
                </rect>
               </property>
               <property name="font">
