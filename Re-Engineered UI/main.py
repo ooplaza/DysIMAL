@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
 
         # METHODS CALLING
         ################################################################################################################
-        self.animate_sideMenu()
+        #self.animate_sideMenu()
         self.export_buttons_functionality()
         self.windows_Configuration()
         self.stackWidget_Behaviour()
@@ -45,9 +45,9 @@ class MainWindow(QMainWindow):
         self.ui.recordsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.RecordsPage))
         self.ui.devsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.DevtPage))
 
-    def animate_sideMenu(self):
-        """THIS METHOD IS RESPONSIBLE FOR ANIMATING THE SIDE MENU."""
-        loadJsonStyle(self, self.ui)
+    # def animate_sideMenu(self):
+    #     """THIS METHOD IS RESPONSIBLE FOR ANIMATING THE SIDE MENU."""
+    #     loadJsonStyle(self, self.ui)
 
     def export_buttons_functionality(self):
         """THIS METHOD WILL TRIGGER THE Export_PDF()"""
@@ -63,10 +63,15 @@ class MainWindow(QMainWindow):
             printer.setOutputFileName(fn)
             self.ui.textEdit.document().print_(printer)
 
+        # GETTING RID THE CONTENTS AFTER EXPORTING
+        self.ui.get_rid_text_export()
+
     def all_Exam_buttons_functionality(self):
         """THIS METHOD IS RESPONSIBLE FOR ALL THE BUTTONS FUNCTIONALITY."""
-        # NEXT FUNCTIONALITY
         self.ui.submitBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.ExamPage))
+        self.ui.searchBtn.clicked.connect(lambda : self.ui.get_user_info_from_db())
+
+        # NEXT FUNCTIONALITY
         self.ui.pushButton_3.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest6to10))
         self.ui.pushButton_4.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest11to15))
         self.ui.pushButton_9.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.mathFluencySubtest1to5))
@@ -91,7 +96,7 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_5.clicked.connect(lambda: self.ui.stackedWidget_2.setCurrentWidget(self.ui.calculationSubTest1to5))
 
 
-app = QApplication(sys.argv)
-screen = MainWindow()
-screen.show()
-sys.exit(app.exec_())
+# app = QApplication(sys.argv)
+# screen = MainWindow()
+# screen.show()
+# sys.exit(app.exec_())
