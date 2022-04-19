@@ -21,15 +21,15 @@
 }
 #header{
 	
-	background-color: rgb(34, 87, 126);
+	background-color: #8ec07c;
 }
 #sideMenu{
 	
-	background-color: rgb(85, 132, 172);
+	background-color: #ebdbb2;
 }
 #mainBody{
 	
-	background-color: rgb(149, 209, 204);
+	background-color: #E5E3C9;
 }</string>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -225,7 +225,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QCustomSlideMenu" name="sideMenu" native="true">
+        <widget class="QWidget" name="sideMenu" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <property name="spacing">
            <number>0</number>
@@ -474,7 +474,7 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>1</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="ProfilePage">
              <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -1046,7 +1046,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_24">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #d5c4a1;
 </string>
                     </property>
                     <property name="frameShape">
@@ -1134,7 +1134,7 @@ border-radius: 10px;</string>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -4205,6 +4205,9 @@ border-radius: 10px;</string>
                   </property>
                   <item>
                    <widget class="QFrame" name="frame_17">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: #d5c4a1;</string>
+                    </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
                     </property>
@@ -7227,15 +7230,8 @@ border-radius: 10px;</string>
    </layout>
   </widget>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QCustomSlideMenu</class>
-   <extends>QWidget</extends>
-   <header location="global">Custom_Widgets.Widgets.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources>
+  <include location="icons.qrc"/>
   <include location="icons.qrc"/>
  </resources>
  <connections/>
