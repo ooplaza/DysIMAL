@@ -443,7 +443,7 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>1</number>
+             <number>4</number>
             </property>
             <widget class="QWidget" name="ProfilePage">
              <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -541,14 +541,14 @@
                    <widget class="QFrame" name="frame_12">
                     <property name="geometry">
                      <rect>
-                      <x>0</x>
-                      <y>70</y>
+                      <x>40</x>
+                      <y>50</y>
                       <width>641</width>
                       <height>41</height>
                      </rect>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -613,14 +613,14 @@ QLineEdit:focus{
                    <widget class="QFrame" name="frame_13">
                     <property name="geometry">
                      <rect>
-                      <x>0</x>
-                      <y>120</y>
+                      <x>40</x>
+                      <y>100</y>
                       <width>641</width>
                       <height>41</height>
                      </rect>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -685,14 +685,14 @@ QLineEdit:focus{
                    <widget class="QFrame" name="frame_14">
                     <property name="geometry">
                      <rect>
-                      <x>0</x>
-                      <y>170</y>
+                      <x>40</x>
+                      <y>150</y>
                       <width>641</width>
                       <height>41</height>
                      </rect>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -757,14 +757,14 @@ QLineEdit:focus{
                    <widget class="QFrame" name="frame_15">
                     <property name="geometry">
                      <rect>
-                      <x>0</x>
-                      <y>220</y>
+                      <x>40</x>
+                      <y>200</y>
                       <width>331</width>
                       <height>41</height>
                      </rect>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -829,14 +829,14 @@ QLineEdit:focus{
                    <widget class="QFrame" name="frame_16">
                     <property name="geometry">
                      <rect>
-                      <x>340</x>
-                      <y>220</y>
+                      <x>380</x>
+                      <y>200</y>
                       <width>301</width>
                       <height>41</height>
                      </rect>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -902,8 +902,8 @@ QLineEdit:focus{
                     <property name="geometry">
                      <rect>
                       <x>0</x>
-                      <y>30</y>
-                      <width>626</width>
+                      <y>10</y>
+                      <width>721</width>
                       <height>21</height>
                      </rect>
                     </property>
@@ -925,16 +925,22 @@ QLineEdit:focus{
                     </property>
                    </widget>
                    <widget class="QFrame" name="frame_37">
+                    <property name="enabled">
+                     <bool>true</bool>
+                    </property>
                     <property name="geometry">
                      <rect>
-                      <x>550</x>
-                      <y>270</y>
-                      <width>91</width>
-                      <height>31</height>
+                      <x>580</x>
+                      <y>260</y>
+                      <width>101</width>
+                      <height>41</height>
                      </rect>
                     </property>
+                    <property name="toolTip">
+                     <string/>
+                    </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
+                     <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                     </property>
                     <property name="frameShape">
@@ -962,8 +968,14 @@ border-radius: 10px;</string>
                         <string>Submit</string>
                        </property>
                        <property name="icon">
-                        <iconset>
-                         <normaloff>:/icons/ICONS/check.svg</normaloff>:/icons/ICONS/check.svg</iconset>
+                        <iconset resource="icons.qrc">
+                         <normaloff>:/icons/1CON/log-in.svg</normaloff>:/icons/1CON/log-in.svg</iconset>
+                       </property>
+                       <property name="iconSize">
+                        <size>
+                         <width>20</width>
+                         <height>20</height>
+                        </size>
                        </property>
                       </widget>
                      </item>
@@ -1015,7 +1027,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_24">
                     <property name="styleSheet">
-                     <string notr="true">background-color: #d5c4a1;
+                     <string notr="true">
 </string>
                     </property>
                     <property name="frameShape">
@@ -1027,10 +1039,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_3">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -1048,7 +1060,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -1056,12 +1068,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -1097,9 +1109,9 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
@@ -1117,8 +1129,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>90</x>
                         <y>0</y>
-                        <width>571</width>
-                        <height>41</height>
+                        <width>631</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1155,7 +1167,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1169,13 +1181,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1189,8 +1201,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>90</x>
                         <y>0</y>
-                        <width>571</width>
-                        <height>41</height>
+                        <width>631</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1227,7 +1239,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1241,13 +1253,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1261,8 +1273,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>90</x>
                         <y>0</y>
-                        <width>571</width>
-                        <height>41</height>
+                        <width>631</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1299,7 +1311,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1313,13 +1325,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1332,7 +1344,7 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1346,8 +1358,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>90</x>
                         <y>0</y>
-                        <width>571</width>
-                        <height>41</height>
+                        <width>631</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1385,13 +1397,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1405,8 +1417,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>90</x>
                         <y>0</y>
-                        <width>571</width>
-                        <height>41</height>
+                        <width>631</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1443,7 +1455,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1458,7 +1470,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -1505,8 +1517,7 @@ QLineEdit:focus{
                   <item>
                    <widget class="QFrame" name="frame_30">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -1517,10 +1528,10 @@ QLineEdit:focus{
                     <widget class="QPushButton" name="pushButton_4">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -1538,7 +1549,7 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -1546,12 +1557,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -1587,13 +1598,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1607,8 +1618,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>130</x>
                         <y>0</y>
-                        <width>531</width>
-                        <height>41</height>
+                        <width>591</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1645,7 +1656,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1659,13 +1670,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1679,8 +1690,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>130</x>
                         <y>0</y>
-                        <width>531</width>
-                        <height>41</height>
+                        <width>591</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1717,7 +1728,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>71</width>
                         <height>21</height>
                        </rect>
@@ -1731,13 +1742,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1751,8 +1762,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>130</x>
                         <y>0</y>
-                        <width>531</width>
-                        <height>41</height>
+                        <width>591</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1789,7 +1800,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>81</width>
                         <height>21</height>
                        </rect>
@@ -1803,13 +1814,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1836,8 +1847,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>130</x>
                         <y>0</y>
-                        <width>531</width>
-                        <height>41</height>
+                        <width>591</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1875,13 +1886,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -1895,8 +1906,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>130</x>
                         <y>0</y>
-                        <width>531</width>
-                        <height>41</height>
+                        <width>591</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -1948,7 +1959,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -1975,9 +1986,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -1995,20 +2006,20 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -2039,8 +2050,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_36">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -2051,10 +2061,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_9">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -2072,7 +2082,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -2080,12 +2090,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -2121,13 +2131,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2141,8 +2151,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>150</x>
                         <y>0</y>
-                        <width>511</width>
-                        <height>41</height>
+                        <width>571</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2179,7 +2189,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>131</width>
                         <height>21</height>
                        </rect>
@@ -2193,13 +2203,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2213,8 +2223,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>150</x>
                         <y>0</y>
-                        <width>511</width>
-                        <height>41</height>
+                        <width>571</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2251,7 +2261,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>121</width>
                         <height>21</height>
                        </rect>
@@ -2265,13 +2275,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2285,8 +2295,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>150</x>
                         <y>0</y>
-                        <width>511</width>
-                        <height>41</height>
+                        <width>571</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2323,7 +2333,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>111</width>
                         <height>21</height>
                        </rect>
@@ -2337,13 +2347,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2356,7 +2366,7 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>91</width>
                         <height>21</height>
                        </rect>
@@ -2370,8 +2380,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>150</x>
                         <y>0</y>
-                        <width>511</width>
-                        <height>41</height>
+                        <width>571</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2409,13 +2419,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2429,8 +2439,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>150</x>
                         <y>0</y>
-                        <width>511</width>
-                        <height>41</height>
+                        <width>571</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2467,7 +2477,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>111</width>
                         <height>21</height>
                        </rect>
@@ -2482,7 +2492,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -2509,9 +2519,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -2529,20 +2539,20 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -2573,8 +2583,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_43">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -2585,10 +2594,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_11">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -2606,7 +2615,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -2614,7 +2623,7 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -2655,13 +2664,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2675,8 +2684,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>310</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>411</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2713,7 +2722,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>131</width>
                         <height>21</height>
                        </rect>
@@ -2727,13 +2736,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2747,8 +2756,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>310</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>411</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2785,7 +2794,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>151</width>
                         <height>21</height>
                        </rect>
@@ -2799,13 +2808,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2819,8 +2828,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>310</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>411</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2857,7 +2866,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>111</width>
                         <height>21</height>
                        </rect>
@@ -2871,13 +2880,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2890,7 +2899,7 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>131</width>
                         <height>21</height>
                        </rect>
@@ -2904,8 +2913,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>310</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>411</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -2943,13 +2952,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -2963,8 +2972,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>310</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>411</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3001,7 +3010,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>291</width>
                         <height>21</height>
                        </rect>
@@ -3016,7 +3025,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -3043,9 +3052,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -3063,15 +3072,15 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -3107,8 +3116,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_49">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -3119,10 +3127,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_13">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -3140,7 +3148,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -3148,7 +3156,7 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -3189,13 +3197,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3207,10 +3215,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_22">
                       <property name="geometry">
                        <rect>
-                        <x>480</x>
+                        <x>400</x>
                         <y>0</y>
-                        <width>181</width>
-                        <height>41</height>
+                        <width>321</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3261,13 +3269,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3279,10 +3287,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_23">
                       <property name="geometry">
                        <rect>
-                        <x>480</x>
+                        <x>440</x>
                         <y>0</y>
-                        <width>181</width>
-                        <height>41</height>
+                        <width>281</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3333,13 +3341,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3353,8 +3361,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>480</x>
                         <y>0</y>
-                        <width>181</width>
-                        <height>41</height>
+                        <width>241</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3405,13 +3413,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3436,10 +3444,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_25">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>220</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>501</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3477,13 +3485,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3495,10 +3503,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_26">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>270</x>
                         <y>0</y>
-                        <width>351</width>
-                        <height>41</height>
+                        <width>451</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3536,7 +3544,7 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>291</width>
+                        <width>251</width>
                         <height>21</height>
                        </rect>
                       </property>
@@ -3550,7 +3558,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -3577,9 +3585,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -3597,15 +3605,15 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -3641,8 +3649,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_55">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -3653,10 +3660,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_15">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -3674,7 +3681,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -3682,12 +3689,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -3723,13 +3730,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>110</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3743,8 +3750,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>280</x>
                         <y>0</y>
-                        <width>381</width>
-                        <height>41</height>
+                        <width>441</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3781,7 +3788,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>261</width>
                         <height>21</height>
                        </rect>
@@ -3795,13 +3802,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>150</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3813,10 +3820,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_28">
                       <property name="geometry">
                        <rect>
-                        <x>280</x>
+                        <x>220</x>
                         <y>0</y>
-                        <width>381</width>
-                        <height>41</height>
+                        <width>501</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3853,7 +3860,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>211</width>
                         <height>21</height>
                        </rect>
@@ -3867,13 +3874,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>210</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3885,10 +3892,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_29">
                       <property name="geometry">
                        <rect>
-                        <x>280</x>
+                        <x>220</x>
                         <y>0</y>
-                        <width>381</width>
-                        <height>41</height>
+                        <width>501</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -3925,7 +3932,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>201</width>
                         <height>21</height>
                        </rect>
@@ -3939,13 +3946,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>270</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -3958,7 +3965,7 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>161</width>
                         <height>21</height>
                        </rect>
@@ -3970,10 +3977,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_30">
                       <property name="geometry">
                        <rect>
-                        <x>280</x>
+                        <x>180</x>
                         <y>0</y>
-                        <width>381</width>
-                        <height>41</height>
+                        <width>541</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -4011,13 +4018,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>350</y>
-                       <width>661</width>
-                       <height>41</height>
+                       <y>330</y>
+                       <width>721</width>
+                       <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -4029,10 +4036,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_31">
                       <property name="geometry">
                        <rect>
-                        <x>280</x>
+                        <x>180</x>
                         <y>0</y>
-                        <width>381</width>
-                        <height>41</height>
+                        <width>541</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -4069,7 +4076,7 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
+                        <y>20</y>
                         <width>161</width>
                         <height>21</height>
                        </rect>
@@ -4084,7 +4091,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -4111,9 +4118,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -4131,20 +4138,20 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -4175,7 +4182,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_17">
                     <property name="styleSheet">
-                     <string notr="true">background-color: #d5c4a1;</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -4202,8 +4209,7 @@ border-radius: 10px;</string>
                      <item>
                       <widget class="QFrame" name="frame_73">
                        <property name="styleSheet">
-                        <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                        <string notr="true"/>
                        </property>
                        <property name="frameShape">
                         <enum>QFrame::StyledPanel</enum>
@@ -4214,10 +4220,10 @@ border-radius: 10px;</string>
                        <widget class="QPushButton" name="pushButton_21">
                         <property name="geometry">
                          <rect>
-                          <x>590</x>
-                          <y>410</y>
-                          <width>81</width>
-                          <height>21</height>
+                          <x>640</x>
+                          <y>390</y>
+                          <width>91</width>
+                          <height>41</height>
                          </rect>
                         </property>
                         <property name="font">
@@ -4235,7 +4241,7 @@ border-radius: 10px;</string>
                          <bool>false</bool>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(180, 203, 253);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="text">
@@ -4243,12 +4249,12 @@ border-radius: 10px;</string>
                         </property>
                         <property name="icon">
                          <iconset resource="icons.qrc">
-                          <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                          <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                         </property>
                         <property name="iconSize">
                          <size>
-                          <width>24</width>
-                          <height>24</height>
+                          <width>25</width>
+                          <height>25</height>
                          </size>
                         </property>
                         <property name="autoDefault">
@@ -4284,13 +4290,13 @@ border-radius: 10px;</string>
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>110</y>
-                          <width>661</width>
+                          <y>90</y>
+                          <width>721</width>
                           <height>81</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -4303,9 +4309,9 @@ border-radius: 10px;</string>
                          <property name="geometry">
                           <rect>
                            <x>360</x>
-                           <y>20</y>
-                           <width>301</width>
-                           <height>41</height>
+                           <y>10</y>
+                           <width>351</width>
+                           <height>61</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -4357,13 +4363,13 @@ QLineEdit:focus{
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>200</y>
-                          <width>661</width>
-                          <height>101</height>
+                          <y>180</y>
+                          <width>721</width>
+                          <height>91</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -4377,8 +4383,8 @@ border-radius: 10px;</string>
                           <rect>
                            <x>360</x>
                            <y>10</y>
-                           <width>301</width>
-                           <height>41</height>
+                           <width>351</width>
+                           <height>71</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -4430,13 +4436,13 @@ QLineEdit:focus{
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>310</y>
-                          <width>661</width>
-                          <height>91</height>
+                          <y>280</y>
+                          <width>721</width>
+                          <height>101</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -4450,8 +4456,8 @@ border-radius: 10px;</string>
                           <rect>
                            <x>10</x>
                            <y>40</y>
-                           <width>261</width>
-                           <height>41</height>
+                           <width>341</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -4500,10 +4506,10 @@ QLineEdit:focus{
                         <widget class="QLabel" name="label_16">
                          <property name="geometry">
                           <rect>
-                           <x>280</x>
+                           <x>360</x>
                            <y>0</y>
-                           <width>381</width>
-                           <height>91</height>
+                           <width>361</width>
+                           <height>101</height>
                           </rect>
                          </property>
                          <property name="text">
@@ -4528,7 +4534,7 @@ QLineEdit:focus{
                          <rect>
                           <x>0</x>
                           <y>10</y>
-                          <width>681</width>
+                          <width>741</width>
                           <height>31</height>
                          </rect>
                         </property>
@@ -4555,9 +4561,9 @@ QLineEdit:focus{
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>410</y>
-                          <width>81</width>
-                          <height>21</height>
+                          <y>390</y>
+                          <width>91</width>
+                          <height>41</height>
                          </rect>
                         </property>
                         <property name="font">
@@ -4575,20 +4581,20 @@ QLineEdit:focus{
                          <bool>false</bool>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(180, 203, 253);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="text">
-                         <string>Next</string>
+                         <string>Back</string>
                         </property>
                         <property name="icon">
                          <iconset resource="icons.qrc">
-                          <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                          <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                         </property>
                         <property name="iconSize">
                          <size>
-                          <width>24</width>
-                          <height>24</height>
+                          <width>25</width>
+                          <height>25</height>
                          </size>
                         </property>
                         <property name="autoDefault">
@@ -4622,8 +4628,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_77">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -4634,10 +4639,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_23">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
+                       <x>650</x>
+                       <y>400</y>
                        <width>81</width>
-                       <height>21</height>
+                       <height>31</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -4655,7 +4660,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -4663,12 +4668,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -4704,13 +4709,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>80</y>
-                       <width>661</width>
-                       <height>111</height>
+                       <y>90</y>
+                       <width>721</width>
+                       <height>91</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -4724,8 +4729,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>40</y>
-                        <width>181</width>
-                        <height>41</height>
+                        <width>331</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -4774,10 +4779,10 @@ QLineEdit:focus{
                      <widget class="QLabel" name="label_18">
                       <property name="geometry">
                        <rect>
-                        <x>240</x>
+                        <x>350</x>
                         <y>0</y>
-                        <width>411</width>
-                        <height>101</height>
+                        <width>371</width>
+                        <height>91</height>
                        </rect>
                       </property>
                       <property name="text">
@@ -4804,7 +4809,7 @@ QLineEdit:focus{
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -4817,9 +4822,9 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>60</y>
-                        <width>191</width>
-                        <height>41</height>
+                        <y>50</y>
+                        <width>321</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -4858,7 +4863,7 @@ QLineEdit:focus{
                         <x>10</x>
                         <y>10</y>
                         <width>321</width>
-                        <height>41</height>
+                        <height>31</height>
                        </rect>
                       </property>
                       <property name="text">
@@ -4871,13 +4876,13 @@ ratio of squares to all shapes?</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>310</y>
+                       <y>300</y>
                        <width>341</width>
                        <height>91</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -4891,8 +4896,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>40</y>
-                        <width>191</width>
-                        <height>41</height>
+                        <width>321</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -4944,7 +4949,7 @@ QLineEdit:focus{
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -4971,9 +4976,9 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
+                       <y>400</y>
                        <width>81</width>
-                       <height>21</height>
+                       <height>31</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -4991,20 +4996,20 @@ QLineEdit:focus{
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -5014,10 +5019,10 @@ border-radius: 10px;</string>
                     <widget class="QLabel" name="label_96">
                      <property name="geometry">
                       <rect>
-                       <x>350</x>
+                       <x>360</x>
                        <y>195</y>
-                       <width>311</width>
-                       <height>201</height>
+                       <width>371</width>
+                       <height>191</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -5054,8 +5059,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_81">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -5066,10 +5070,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_25">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -5087,7 +5091,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -5095,7 +5099,7 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -5136,13 +5140,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>80</y>
-                       <width>661</width>
+                       <y>100</y>
+                       <width>531</width>
                        <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -5154,10 +5158,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_48">
                       <property name="geometry">
                        <rect>
-                        <x>360</x>
-                        <y>10</y>
-                        <width>301</width>
-                        <height>41</height>
+                        <x>260</x>
+                        <y>0</y>
+                        <width>271</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -5195,8 +5199,8 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>331</width>
-                        <height>61</height>
+                        <width>241</width>
+                        <height>41</height>
                        </rect>
                       </property>
                       <property name="text">
@@ -5208,13 +5212,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>140</y>
-                       <width>661</width>
-                       <height>71</height>
+                       <y>170</y>
+                       <width>531</width>
+                       <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -5226,10 +5230,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_49">
                       <property name="geometry">
                        <rect>
-                        <x>360</x>
-                        <y>20</y>
-                        <width>301</width>
-                        <height>41</height>
+                        <x>260</x>
+                        <y>0</y>
+                        <width>271</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -5267,8 +5271,8 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>341</width>
-                        <height>61</height>
+                        <width>231</width>
+                        <height>41</height>
                        </rect>
                       </property>
                       <property name="text">
@@ -5286,7 +5290,7 @@ QLineEdit:focus{
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -5299,9 +5303,9 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>210</x>
-                        <y>10</y>
-                        <width>311</width>
-                        <height>41</height>
+                        <y>0</y>
+                        <width>321</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -5339,7 +5343,7 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>201</width>
+                        <width>191</width>
                         <height>31</height>
                        </rect>
                       </property>
@@ -5354,7 +5358,7 @@ part of the figure as percent.</string>
                       <rect>
                        <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>741</width>
                        <height>31</height>
                       </rect>
                      </property>
@@ -5381,9 +5385,9 @@ part of the figure as percent.</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>390</y>
+                       <width>91</width>
+                       <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -5401,15 +5405,15 @@ part of the figure as percent.</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -5425,13 +5429,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>320</y>
+                       <y>310</y>
                        <width>531</width>
                        <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -5444,9 +5448,9 @@ border-radius: 10px;</string>
                       <property name="geometry">
                        <rect>
                         <x>210</x>
-                        <y>10</y>
-                        <width>311</width>
-                        <height>41</height>
+                        <y>0</y>
+                        <width>321</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -5498,9 +5502,9 @@ part of the figure as percent.</string>
                      <property name="geometry">
                       <rect>
                        <x>550</x>
-                       <y>220</y>
-                       <width>121</width>
-                       <height>181</height>
+                       <y>80</y>
+                       <width>181</width>
+                       <height>291</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -5511,6 +5515,32 @@ part of the figure as percent.</string>
                      </property>
                      <property name="scaledContents">
                       <bool>true</bool>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="label_3">
+                     <property name="geometry">
+                      <rect>
+                       <x>560</x>
+                       <y>90</y>
+                       <width>16</width>
+                       <height>16</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>9.</string>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="label_4">
+                     <property name="geometry">
+                      <rect>
+                       <x>560</x>
+                       <y>230</y>
+                       <width>21</width>
+                       <height>16</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>10.</string>
                      </property>
                     </widget>
                    </widget>
@@ -5561,8 +5591,7 @@ part of the figure as percent.</string>
                      <item>
                       <widget class="QFrame" name="frame_61">
                        <property name="styleSheet">
-                        <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                        <string notr="true"/>
                        </property>
                        <property name="frameShape">
                         <enum>QFrame::StyledPanel</enum>
@@ -5573,10 +5602,10 @@ part of the figure as percent.</string>
                        <widget class="QPushButton" name="pushButton_17">
                         <property name="geometry">
                          <rect>
-                          <x>590</x>
-                          <y>410</y>
-                          <width>81</width>
-                          <height>21</height>
+                          <x>640</x>
+                          <y>390</y>
+                          <width>91</width>
+                          <height>41</height>
                          </rect>
                         </property>
                         <property name="font">
@@ -5594,7 +5623,7 @@ part of the figure as percent.</string>
                          <bool>false</bool>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(180, 203, 253);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="text">
@@ -5602,7 +5631,7 @@ border-radius: 10px;</string>
                         </property>
                         <property name="icon">
                          <iconset resource="icons.qrc">
-                          <normaloff>:/icons/1CON/chevron-right.svg</normaloff>:/icons/1CON/chevron-right.svg</iconset>
+                          <normaloff>:/icons/1CON/chevrons-right.svg</normaloff>:/icons/1CON/chevrons-right.svg</iconset>
                         </property>
                         <property name="iconSize">
                          <size>
@@ -5643,13 +5672,13 @@ border-radius: 10px;</string>
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>110</y>
-                          <width>651</width>
+                          <y>90</y>
+                          <width>721</width>
                           <height>51</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -5662,9 +5691,9 @@ border-radius: 10px;</string>
                          <property name="geometry">
                           <rect>
                            <x>480</x>
-                           <y>10</y>
-                           <width>171</width>
-                           <height>41</height>
+                           <y>0</y>
+                           <width>241</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -5719,13 +5748,13 @@ QLineEdit:focus{
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>170</y>
-                          <width>661</width>
+                          <y>150</y>
+                          <width>721</width>
                           <height>51</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -5737,10 +5766,10 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_33">
                          <property name="geometry">
                           <rect>
-                           <x>560</x>
+                           <x>540</x>
                            <y>0</y>
-                           <width>91</width>
-                           <height>41</height>
+                           <width>181</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -5777,8 +5806,8 @@ QLineEdit:focus{
                          <property name="geometry">
                           <rect>
                            <x>10</x>
-                           <y>10</y>
-                           <width>531</width>
+                           <y>0</y>
+                           <width>521</width>
                            <height>41</height>
                           </rect>
                          </property>
@@ -5795,13 +5824,13 @@ class than in Mr. Stevens'. How many students are there in Mrs. Patel's?</string
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>230</y>
-                          <width>661</width>
-                          <height>41</height>
+                          <y>210</y>
+                          <width>721</width>
+                          <height>51</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -5813,10 +5842,10 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_34">
                          <property name="geometry">
                           <rect>
-                           <x>450</x>
+                           <x>430</x>
                            <y>0</y>
-                           <width>201</width>
-                           <height>41</height>
+                           <width>291</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -5854,7 +5883,7 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>0</y>
-                           <width>421</width>
+                           <width>411</width>
                            <height>41</height>
                           </rect>
                          </property>
@@ -5871,13 +5900,13 @@ How much pie does Jodi have?</string>
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>290</y>
-                          <width>661</width>
+                          <y>270</y>
+                          <width>721</width>
                           <height>51</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -5891,7 +5920,7 @@ border-radius: 10px;</string>
                           <rect>
                            <x>10</x>
                            <y>0</y>
-                           <width>271</width>
+                           <width>221</width>
                            <height>41</height>
                           </rect>
                          </property>
@@ -5903,10 +5932,10 @@ How much does she earn in 2 years?</string>
                         <widget class="QLineEdit" name="lineEdit_35">
                          <property name="geometry">
                           <rect>
-                           <x>280</x>
+                           <x>240</x>
                            <y>0</y>
-                           <width>371</width>
-                           <height>41</height>
+                           <width>481</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -5944,13 +5973,13 @@ QLineEdit:focus{
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>350</y>
-                          <width>661</width>
+                          <y>330</y>
+                          <width>721</width>
                           <height>51</height>
                          </rect>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(218, 229, 255);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="frameShape">
@@ -5964,8 +5993,8 @@ border-radius: 10px;</string>
                           <rect>
                            <x>450</x>
                            <y>0</y>
-                           <width>201</width>
-                           <height>41</height>
+                           <width>271</width>
+                           <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
@@ -6003,7 +6032,7 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>10</y>
-                           <width>441</width>
+                           <width>431</width>
                            <height>31</height>
                           </rect>
                          </property>
@@ -6018,7 +6047,7 @@ How many kilometers did they hiked in all?</string>
                          <rect>
                           <x>0</x>
                           <y>10</y>
-                          <width>681</width>
+                          <width>741</width>
                           <height>31</height>
                          </rect>
                         </property>
@@ -6045,9 +6074,9 @@ How many kilometers did they hiked in all?</string>
                         <property name="geometry">
                          <rect>
                           <x>10</x>
-                          <y>410</y>
-                          <width>81</width>
-                          <height>21</height>
+                          <y>390</y>
+                          <width>91</width>
+                          <height>41</height>
                          </rect>
                         </property>
                         <property name="font">
@@ -6065,7 +6094,7 @@ How many kilometers did they hiked in all?</string>
                          <bool>false</bool>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(180, 203, 253);
+                         <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                         </property>
                         <property name="text">
@@ -6073,7 +6102,7 @@ border-radius: 10px;</string>
                         </property>
                         <property name="icon">
                          <iconset resource="icons.qrc">
-                          <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                          <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                         </property>
                         <property name="iconSize">
                          <size>
@@ -6115,8 +6144,7 @@ border-radius: 10px;</string>
                      <bool>true</bool>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(218, 229, 255);
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -6127,10 +6155,10 @@ border-radius: 10px;</string>
                     <widget class="QPushButton" name="pushButton_19">
                      <property name="geometry">
                       <rect>
-                       <x>590</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <x>640</x>
+                       <y>400</y>
+                       <width>91</width>
+                       <height>31</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -6148,7 +6176,7 @@ border-radius: 10px;</string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
@@ -6156,12 +6184,12 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-up.svg</normaloff>:/icons/1CON/chevron-up.svg</iconset>
+                       <normaloff>:/icons/1CON/cloud-download.svg</normaloff>:/icons/1CON/cloud-download.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
-                       <width>24</width>
-                       <height>24</height>
+                       <width>25</width>
+                       <height>25</height>
                       </size>
                      </property>
                      <property name="autoDefault">
@@ -6172,7 +6200,7 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>60</y>
+                       <y>50</y>
                        <width>281</width>
                        <height>21</height>
                       </rect>
@@ -6197,13 +6225,13 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>90</y>
-                       <width>661</width>
-                       <height>71</height>
+                       <y>70</y>
+                       <width>721</width>
+                       <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -6215,10 +6243,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_37">
                       <property name="geometry">
                        <rect>
-                        <x>480</x>
-                        <y>10</y>
-                        <width>181</width>
-                        <height>41</height>
+                        <x>470</x>
+                        <y>0</y>
+                        <width>251</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -6255,13 +6283,13 @@ QLineEdit:focus{
                       <property name="geometry">
                        <rect>
                         <x>10</x>
-                        <y>10</y>
-                        <width>471</width>
+                        <y>0</y>
+                        <width>451</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="text">
-                       <string> 6.Mr. De Guzman and the boys spent Php 567.75 for food and Php 175.50 for 
+                       <string> 6. Mr. De Guzman and the boys spent Php 567.75 for food and Php 175.50 for 
 transportation during the Science Fair Camp. If they had Php 800.00 to 
 spend, how much money was left?</string>
                       </property>
@@ -6274,13 +6302,13 @@ spend, how much money was left?</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>170</y>
-                       <width>661</width>
+                       <y>140</y>
+                       <width>721</width>
                        <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -6294,8 +6322,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>350</x>
                         <y>0</y>
-                        <width>311</width>
-                        <height>41</height>
+                        <width>371</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -6350,13 +6378,13 @@ QLineEdit:focus{
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>230</y>
-                       <width>661</width>
-                       <height>51</height>
+                       <y>200</y>
+                       <width>721</width>
+                       <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -6368,10 +6396,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_39">
                       <property name="geometry">
                        <rect>
-                        <x>510</x>
+                        <x>520</x>
                         <y>0</y>
-                        <width>151</width>
-                        <height>41</height>
+                        <width>201</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -6410,7 +6438,7 @@ QLineEdit:focus{
                         <x>10</x>
                         <y>0</y>
                         <width>501</width>
-                        <height>51</height>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="text">
@@ -6427,13 +6455,13 @@ donated to each classroom and to the library?</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>290</y>
-                       <width>661</width>
+                       <y>270</y>
+                       <width>721</width>
                        <height>51</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -6461,8 +6489,8 @@ border-radius: 10px;</string>
                        <rect>
                         <x>520</x>
                         <y>0</y>
-                        <width>141</width>
-                        <height>41</height>
+                        <width>201</width>
+                        <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -6501,12 +6529,12 @@ QLineEdit:focus{
                       <rect>
                        <x>10</x>
                        <y>330</y>
-                       <width>661</width>
+                       <width>721</width>
                        <height>61</height>
                       </rect>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(218, 229, 255);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="frameShape">
@@ -6518,10 +6546,10 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_41">
                       <property name="geometry">
                        <rect>
-                        <x>510</x>
-                        <y>10</y>
-                        <width>151</width>
-                        <height>41</height>
+                        <x>450</x>
+                        <y>0</y>
+                        <width>271</width>
+                        <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
@@ -6559,7 +6587,7 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>441</width>
+                        <width>431</width>
                         <height>51</height>
                        </rect>
                       </property>
@@ -6602,9 +6630,9 @@ How many people are in bare feet? </string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>410</y>
-                       <width>81</width>
-                       <height>21</height>
+                       <y>400</y>
+                       <width>91</width>
+                       <height>31</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -6622,15 +6650,15 @@ How many people are in bare feet? </string>
                       <bool>false</bool>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">background-color: rgb(180, 203, 253);
+                      <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                      </property>
                      <property name="text">
-                      <string>Next</string>
+                      <string>Back</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/chevron-left.svg</normaloff>:/icons/1CON/chevron-left.svg</iconset>
+                       <normaloff>:/icons/1CON/chevrons-left.svg</normaloff>:/icons/1CON/chevrons-left.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -6715,7 +6743,7 @@ border-radius: 10px;</string>
                     <item alignment="Qt::AlignTop">
                      <widget class="QFrame" name="frame_8">
                       <property name="styleSheet">
-                       <string notr="true">background-color: #8FBDD3;
+                       <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                       </property>
                       <property name="frameShape">
@@ -6820,7 +6848,7 @@ QLineEdit:focus{
                     <item>
                      <widget class="QTextEdit" name="textEdit">
                       <property name="styleSheet">
-                       <string notr="true">background-color: #8FBDD3;</string>
+                       <string notr="true">background-color: #ebdbb2;</string>
                       </property>
                      </widget>
                     </item>
@@ -6830,7 +6858,7 @@ QLineEdit:focus{
                  <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
                   <widget class="QFrame" name="frame_7">
                    <property name="styleSheet">
-                    <string notr="true">background-color: rgb(218, 229, 255);
+                    <string notr="true">background-color: #ebdbb2;
 border-radius: 10px;</string>
                    </property>
                    <property name="frameShape">
@@ -6937,7 +6965,7 @@ border-radius: 10px;</string>
                        </font>
                       </property>
                       <property name="text">
-                       <string>Team Leader | DBA/PAPERS : RENOMERON, ROMEL</string>
+                       <string>PROJECT MANAGER : RENOMERON, ROMEL</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -6967,7 +6995,7 @@ border-radius: 10px;</string>
                        </font>
                       </property>
                       <property name="text">
-                       <string>PROJECT ENGINEER : BIAOCO, VINCE HARVEY</string>
+                       <string>UI/UX DESIGNER : BIAOCO, VINCE HARVEY</string>
                       </property>
                      </widget>
                     </item>
@@ -6981,7 +7009,7 @@ border-radius: 10px;</string>
                        </font>
                       </property>
                       <property name="text">
-                       <string>SUPERVISOR : BAYSA, JERSON</string>
+                       <string>TECHNICAL LEAD : BAYSA, JERSON</string>
                       </property>
                      </widget>
                     </item>
@@ -7005,7 +7033,7 @@ border-radius: 10px;</string>
                        </font>
                       </property>
                       <property name="text">
-                       <string>PLAZA, ORLY O.</string>
+                       <string>SOFTWARE DEVELOPER | PLAZA, ORLY O.</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -7025,7 +7053,7 @@ border-radius: 10px;</string>
                       </property>
                      </widget>
                     </item>
-                    <item row="6" column="1" alignment="Qt::AlignVCenter">
+                    <item row="6" column="1">
                      <widget class="QLabel" name="label_7">
                       <property name="text">
                        <string/>
@@ -7052,8 +7080,8 @@ border-radius: 10px;</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>680</width>
-                <height>445</height>
+                <width>741</width>
+                <height>501</height>
                </rect>
               </property>
               <property name="font">
@@ -7079,9 +7107,9 @@ border-radius: 10px;</string>
              <widget class="QLabel" name="label_98">
               <property name="geometry">
                <rect>
-                <x>20</x>
+                <x>0</x>
                 <y>80</y>
-                <width>626</width>
+                <width>741</width>
                 <height>81</height>
                </rect>
               </property>
@@ -7104,10 +7132,10 @@ border-radius: 10px;</string>
              <widget class="QLabel" name="label_99">
               <property name="geometry">
                <rect>
-                <x>20</x>
-                <y>180</y>
-                <width>626</width>
-                <height>16</height>
+                <x>0</x>
+                <y>160</y>
+                <width>741</width>
+                <height>20</height>
                </rect>
               </property>
               <property name="font">
@@ -7126,8 +7154,8 @@ border-radius: 10px;</string>
              <widget class="QFrame" name="frame_18">
               <property name="geometry">
                <rect>
-                <x>220</x>
-                <y>350</y>
+                <x>260</x>
+                <y>380</y>
                 <width>221</width>
                 <height>51</height>
                </rect>

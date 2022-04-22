@@ -44,6 +44,7 @@ class MainWindow(QMainWindow):
         self.ui.takeTestBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.ExamPage))
         self.ui.recordsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.RecordsPage))
         self.ui.devsBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.DevtPage))
+        self.ui.sideMenuBtn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.HomePage))
 
     # def animate_sideMenu(self):
     #     """THIS METHOD IS RESPONSIBLE FOR ANIMATING THE SIDE MENU."""
