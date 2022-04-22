@@ -1,4 +1,4 @@
-from Custom_Widgets.Widgets import loadJsonStyle
+#from Custom_Widgets.Widgets import loadJsonStyle
 from PySide2.QtCore import QFileInfo
 from PySide2.QtPrintSupport import QPrinter
 from PySide2.QtWidgets import QMainWindow, QApplication, QSizeGrip, QFileDialog

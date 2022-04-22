@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>787</width>
     <height>480</height>
    </rect>
   </property>
@@ -67,13 +67,13 @@
         <number>0</number>
        </property>
        <property name="leftMargin">
-        <number>0</number>
+        <number>5</number>
        </property>
        <property name="topMargin">
         <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>0</number>
+        <number>5</number>
        </property>
        <property name="bottomMargin">
         <number>0</number>
@@ -114,11 +114,11 @@
              <string notr="true"/>
             </property>
             <property name="text">
-             <string>MENU</string>
+             <string>HOME</string>
             </property>
             <property name="icon">
              <iconset resource="icons.qrc">
-              <normaloff>:/icons/1CON/align-justify.svg</normaloff>:/icons/1CON/align-justify.svg</iconset>
+              <normaloff>:/icons/1CON/home-svgrepo-com.svg</normaloff>:/icons/1CON/home-svgrepo-com.svg</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -179,6 +179,9 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_8">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
             <property name="text">
              <string/>
             </property>
@@ -242,11 +245,11 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+          <item>
            <widget class="QFrame" name="frame">
             <property name="minimumSize">
              <size>
-              <width>120</width>
+              <width>30</width>
               <height>0</height>
              </size>
             </property>
@@ -264,68 +267,45 @@
             </property>
             <layout class="QGridLayout" name="gridLayout">
              <property name="leftMargin">
-              <number>0</number>
+              <number>5</number>
              </property>
              <property name="topMargin">
               <number>0</number>
              </property>
              <property name="rightMargin">
-              <number>26</number>
+              <number>5</number>
              </property>
              <property name="bottomMargin">
               <number>5</number>
              </property>
-             <item row="4" column="0">
-              <widget class="QPushButton" name="devsBtn">
-               <property name="cursor">
-                <cursorShape>PointingHandCursor</cursorShape>
-               </property>
-               <property name="toolTip">
-                <string>Developers</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset resource="icons.qrc">
-                 <normaloff>:/icons/1CON/github.svg</normaloff>:/icons/1CON/github.svg</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>20</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="1" alignment="Qt::AlignLeft">
-              <widget class="QLabel" name="label_5">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="studentProfileBtn">
                <property name="font">
                 <font>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
                </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="toolTip">
+                <string>Student Profile</string>
+               </property>
                <property name="text">
-                <string>Records</string>
+                <string/>
                </property>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <spacer name="verticalSpacer">
-               <property name="orientation">
-                <enum>Qt::Vertical</enum>
+               <property name="icon">
+                <iconset resource="icons.qrc">
+                 <normaloff>:/icons/1CON/user-svgrepo-com (5).svg</normaloff>:/icons/1CON/user-svgrepo-com (5).svg</iconset>
                </property>
-               <property name="sizeType">
-                <enum>QSizePolicy::Expanding</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
+               <property name="iconSize">
                 <size>
-                 <width>20</width>
-                 <height>350</height>
+                 <width>30</width>
+                 <height>30</height>
                 </size>
                </property>
-              </spacer>
+              </widget>
              </item>
              <item row="2" column="0">
               <widget class="QPushButton" name="recordsBtn">
@@ -346,20 +326,13 @@
                </property>
                <property name="icon">
                 <iconset resource="icons.qrc">
-                 <normaloff>:/icons/1CON/layers.svg</normaloff>:/icons/1CON/layers.svg</iconset>
+                 <normaloff>:/icons/1CON/magnifier-eye.svg</normaloff>:/icons/1CON/magnifier-eye.svg</iconset>
                </property>
-              </widget>
-             </item>
-             <item row="4" column="1">
-              <widget class="QLabel" name="label_8">
-               <property name="font">
-                <font>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>About</string>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -382,58 +355,54 @@
                </property>
                <property name="icon">
                 <iconset resource="icons.qrc">
-                 <normaloff>:/icons/1CON/edit-2.svg</normaloff>:/icons/1CON/edit-2.svg</iconset>
+                 <normaloff>:/icons/1CON/folder-files.svg</normaloff>:/icons/1CON/folder-files.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
-             <item row="1" column="1">
-              <widget class="QLabel" name="label_4">
-               <property name="font">
-                <font>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Take Test</string>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="0">
-              <widget class="QPushButton" name="studentProfileBtn">
-               <property name="font">
-                <font>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
+             <item row="4" column="0">
+              <widget class="QPushButton" name="devsBtn">
                <property name="cursor">
                 <cursorShape>PointingHandCursor</cursorShape>
                </property>
                <property name="toolTip">
-                <string>Student Profile</string>
+                <string>About us</string>
                </property>
                <property name="text">
                 <string/>
                </property>
                <property name="icon">
                 <iconset resource="icons.qrc">
-                 <normaloff>:/icons/1CON/users.svg</normaloff>:/icons/1CON/users.svg</iconset>
+                 <normaloff>:/icons/1CON/gears.svg</normaloff>:/icons/1CON/gears.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
-             <item row="0" column="1">
-              <widget class="QLabel" name="label_3">
-               <property name="font">
-                <font>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
+             <item row="3" column="0">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
                </property>
-               <property name="text">
-                <string>Profile</string>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
                </property>
-              </widget>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>350</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </widget>
@@ -474,7 +443,7 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>2</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="ProfilePage">
              <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -6142,6 +6111,9 @@ border-radius: 10px;</string>
                   </property>
                   <item>
                    <widget class="QFrame" name="frame_67">
+                    <property name="enabled">
+                     <bool>true</bool>
+                    </property>
                     <property name="styleSheet">
                      <string notr="true">background-color: rgb(218, 229, 255);
 </string>
@@ -6601,7 +6573,7 @@ How many people are in bare feet? </string>
                     <widget class="QLabel" name="label_79">
                      <property name="geometry">
                       <rect>
-                       <x>0</x>
+                       <x>30</x>
                        <y>10</y>
                        <width>681</width>
                        <height>31</height>
@@ -6881,7 +6853,7 @@ border-radius: 10px;</string>
                       </property>
                       <property name="icon">
                        <iconset resource="icons.qrc">
-                        <normaloff>:/icons/1CON/file-text.svg</normaloff>:/icons/1CON/file-text.svg</iconset>
+                        <normaloff>:/icons/1CON/interface-svgrepo-com.svg</normaloff>:/icons/1CON/interface-svgrepo-com.svg</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -7231,7 +7203,6 @@ border-radius: 10px;</string>
   </widget>
  </widget>
  <resources>
-  <include location="icons.qrc"/>
   <include location="icons.qrc"/>
  </resources>
  <connections/>
