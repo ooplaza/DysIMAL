@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>787</width>
+    <width>800</width>
     <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -106,9 +109,14 @@
            <widget class="QPushButton" name="sideMenuBtn">
             <property name="font">
              <font>
+              <family>SF Pro Display</family>
+              <pointsize>10</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="styleSheet">
              <string notr="true"/>
@@ -509,8 +517,9 @@
                      <widget class="QLabel" name="label_13">
                       <property name="font">
                        <font>
-                        <weight>75</weight>
-                        <bold>true</bold>
+                        <family>SF Pro Display</family>
+                        <weight>50</weight>
+                        <bold>false</bold>
                        </font>
                       </property>
                       <property name="text">
@@ -568,6 +577,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                       </font>
@@ -582,15 +593,18 @@ border-radius: 10px;</string>
                     <widget class="QLineEdit" name="studentFirstName">
                      <property name="geometry">
                       <rect>
-                       <x>110</x>
+                       <x>120</x>
                        <y>0</y>
-                       <width>531</width>
+                       <width>521</width>
                        <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                       </font>
                      </property>
                      <property name="styleSheet">
@@ -632,14 +646,16 @@ border-radius: 10px;</string>
                     <widget class="QLabel" name="label_17">
                      <property name="geometry">
                       <rect>
-                       <x>10</x>
+                       <x>0</x>
                        <y>10</y>
-                       <width>91</width>
+                       <width>111</width>
                        <height>20</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                       </font>
@@ -654,15 +670,18 @@ border-radius: 10px;</string>
                     <widget class="QLineEdit" name="studentMidName">
                      <property name="geometry">
                       <rect>
-                       <x>110</x>
+                       <x>120</x>
                        <y>0</y>
-                       <width>531</width>
+                       <width>521</width>
                        <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                       </font>
                      </property>
                      <property name="styleSheet">
@@ -712,6 +731,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                       </font>
@@ -726,15 +747,18 @@ border-radius: 10px;</string>
                     <widget class="QLineEdit" name="studentLastName">
                      <property name="geometry">
                       <rect>
-                       <x>110</x>
+                       <x>120</x>
                        <y>0</y>
-                       <width>531</width>
+                       <width>521</width>
                        <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                       </font>
                      </property>
                      <property name="styleSheet">
@@ -784,6 +808,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                       </font>
@@ -798,15 +824,18 @@ border-radius: 10px;</string>
                     <widget class="QLineEdit" name="studentGradeLevel">
                      <property name="geometry">
                       <rect>
-                       <x>110</x>
+                       <x>120</x>
                        <y>0</y>
-                       <width>221</width>
+                       <width>211</width>
                        <height>41</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                       </font>
                      </property>
                      <property name="styleSheet">
@@ -856,6 +885,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                       </font>
@@ -878,7 +909,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                       </font>
                      </property>
                      <property name="styleSheet">
@@ -902,14 +936,14 @@ QLineEdit:focus{
                     <property name="geometry">
                      <rect>
                       <x>0</x>
-                      <y>10</y>
+                      <y>20</y>
                       <width>721</width>
                       <height>21</height>
                      </rect>
                     </property>
                     <property name="font">
                      <font>
-                      <family>MS Shell Dlg 2</family>
+                      <family>SF Pro Display</family>
                       <pointsize>10</pointsize>
                       <weight>75</weight>
                       <italic>false</italic>
@@ -954,6 +988,8 @@ border-radius: 10px;</string>
                       <widget class="QPushButton" name="submitBtn">
                        <property name="font">
                         <font>
+                         <family>SF Pro Display</family>
+                         <pointsize>11</pointsize>
                          <weight>75</weight>
                          <bold>true</bold>
                         </font>
@@ -1027,8 +1063,7 @@ border-radius: 10px;</string>
                   <item>
                    <widget class="QFrame" name="frame_24">
                     <property name="styleSheet">
-                     <string notr="true">
-</string>
+                     <string notr="true"/>
                     </property>
                     <property name="frameShape">
                      <enum>QFrame::StyledPanel</enum>
@@ -1047,7 +1082,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>10</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -1091,10 +1127,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -1127,15 +1163,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_2">
                       <property name="geometry">
                        <rect>
-                        <x>90</x>
+                        <x>100</x>
                         <y>0</y>
-                        <width>631</width>
+                        <width>621</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1168,9 +1205,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>71</width>
+                        <width>81</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>1. 525 + 6 = </string>
@@ -1199,15 +1242,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_3">
                       <property name="geometry">
                        <rect>
-                        <x>90</x>
+                        <x>100</x>
                         <y>0</y>
-                        <width>631</width>
+                        <width>621</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1244,6 +1288,12 @@ QLineEdit:focus{
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>2. 42 + 9 = </string>
                       </property>
@@ -1271,15 +1321,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_4">
                       <property name="geometry">
                        <rect>
-                        <x>90</x>
+                        <x>100</x>
                         <y>0</y>
-                        <width>631</width>
+                        <width>621</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1312,9 +1363,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>71</width>
+                        <width>81</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>3. 98 - 81 = </string>
@@ -1345,9 +1402,15 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>71</width>
+                        <width>81</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>4. 66 - 16 = </string>
@@ -1356,15 +1419,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_5">
                       <property name="geometry">
                        <rect>
-                        <x>90</x>
+                        <x>100</x>
                         <y>0</y>
-                        <width>631</width>
+                        <width>621</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1415,15 +1479,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_6">
                       <property name="geometry">
                        <rect>
-                        <x>90</x>
+                        <x>100</x>
                         <y>0</y>
-                        <width>631</width>
+                        <width>621</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1460,6 +1525,12 @@ QLineEdit:focus{
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>5. 11 x 7 =</string>
                       </property>
@@ -1476,7 +1547,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -1536,7 +1607,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -1580,10 +1652,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -1616,15 +1688,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_7">
                       <property name="geometry">
                        <rect>
-                        <x>130</x>
+                        <x>140</x>
                         <y>0</y>
-                        <width>591</width>
+                        <width>581</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1657,9 +1730,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>71</width>
+                        <width>81</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>6. 16 x 5 = </string>
@@ -1688,15 +1769,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_8">
                       <property name="geometry">
                        <rect>
-                        <x>130</x>
+                        <x>140</x>
                         <y>0</y>
-                        <width>591</width>
+                        <width>581</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1729,9 +1811,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>71</width>
+                        <width>81</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>7. 66 ÷ 11 = </string>
@@ -1760,15 +1850,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_9">
                       <property name="geometry">
                        <rect>
-                        <x>130</x>
+                        <x>140</x>
                         <y>0</y>
-                        <width>591</width>
+                        <width>581</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1805,6 +1896,14 @@ QLineEdit:focus{
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>8. 75 ÷ 25 = </string>
                       </property>
@@ -1838,6 +1937,14 @@ border-radius: 10px;</string>
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>9. 1/4 + 1/2 = </string>
                       </property>
@@ -1845,15 +1952,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_10">
                       <property name="geometry">
                        <rect>
-                        <x>130</x>
+                        <x>140</x>
                         <y>0</y>
-                        <width>591</width>
+                        <width>581</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1904,15 +2012,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_11">
                       <property name="geometry">
                        <rect>
-                        <x>130</x>
+                        <x>140</x>
                         <y>0</y>
-                        <width>591</width>
+                        <width>581</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -1945,9 +2054,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>111</width>
+                        <width>121</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>10. 3/10 + 6/10 =</string>
@@ -1965,7 +2082,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -1993,7 +2110,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -2069,7 +2187,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -2107,16 +2226,16 @@ border-radius: 10px;</string>
                       <rect>
                        <x>10</x>
                        <y>60</y>
-                       <width>281</width>
+                       <width>321</width>
                        <height>21</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Text</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -2149,15 +2268,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_12">
                       <property name="geometry">
                        <rect>
-                        <x>150</x>
+                        <x>170</x>
                         <y>0</y>
-                        <width>571</width>
+                        <width>551</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2190,9 +2310,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>131</width>
+                        <width>151</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Text</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>11.  40/77 - 15/77 = </string>
@@ -2221,15 +2346,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_13">
                       <property name="geometry">
                        <rect>
-                        <x>150</x>
+                        <x>170</x>
                         <y>0</y>
-                        <width>571</width>
+                        <width>551</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2262,9 +2388,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>121</width>
+                        <width>151</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Text</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>12. 19/22 - 10/22 =  </string>
@@ -2293,15 +2424,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_14">
                       <property name="geometry">
                        <rect>
-                        <x>150</x>
+                        <x>170</x>
                         <y>0</y>
-                        <width>571</width>
+                        <width>551</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2334,9 +2466,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>111</width>
+                        <width>121</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Text</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>13.  2/3 x 2/5 = </string>
@@ -2367,9 +2504,14 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>91</width>
+                        <width>111</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Text</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>14. 1/6 x 3/5 =</string>
@@ -2378,15 +2520,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_15">
                       <property name="geometry">
                        <rect>
-                        <x>150</x>
+                        <x>170</x>
                         <y>0</y>
-                        <width>571</width>
+                        <width>551</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2437,15 +2580,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_16">
                       <property name="geometry">
                        <rect>
-                        <x>150</x>
+                        <x>170</x>
                         <y>0</y>
-                        <width>571</width>
+                        <width>551</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2482,6 +2626,11 @@ QLineEdit:focus{
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Text</family>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>15. 3/4 ÷ 6/7 =</string>
                       </property>
@@ -2498,7 +2647,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -2526,7 +2675,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -2602,7 +2752,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -2646,10 +2797,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -2682,15 +2833,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_17">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>411</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2727,6 +2879,11 @@ QLineEdit:focus{
                         <height>21</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>1. (19 + 7) – 6 + 5 = </string>
                       </property>
@@ -2754,15 +2911,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_18">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>411</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2795,9 +2953,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>151</width>
+                        <width>171</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>2. 84 + 6 - (14 – 8) + 2 = </string>
@@ -2826,15 +2989,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_19">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>411</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2867,9 +3031,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>111</width>
+                        <width>141</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>3. 16 x 2 ÷ (6 ÷ 2) = </string>
@@ -2900,9 +3069,14 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>131</width>
+                        <width>141</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>4. (36 ÷ 4) x 2 ÷ 2 = </string>
@@ -2911,15 +3085,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_20">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>411</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -2970,15 +3145,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_21">
                       <property name="geometry">
                        <rect>
-                        <x>310</x>
+                        <x>350</x>
                         <y>0</y>
-                        <width>411</width>
+                        <width>371</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3011,9 +3187,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>291</width>
+                        <width>341</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>5. Write the 5-digit number.30,000 + 100 + 410 =</string>
@@ -3031,7 +3212,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -3059,7 +3240,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -3135,7 +3317,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -3179,10 +3362,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -3215,15 +3398,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_22">
                       <property name="geometry">
                        <rect>
-                        <x>400</x>
+                        <x>470</x>
                         <y>0</y>
-                        <width>321</width>
+                        <width>251</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3256,9 +3440,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>381</width>
+                        <width>451</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>6. Write the 6-digit number.100,000 + 30,000 + 3,000 + 600 + 4 = </string>
@@ -3287,15 +3476,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_23">
                       <property name="geometry">
                        <rect>
-                        <x>440</x>
+                        <x>500</x>
                         <y>0</y>
-                        <width>281</width>
+                        <width>221</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3328,9 +3518,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>421</width>
+                        <width>481</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>7. Write the 5-digit number with decimals.50 + 5 + 0.2 + 0.06 + 0.006 = </string>
@@ -3359,15 +3554,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_24">
                       <property name="geometry">
                        <rect>
-                        <x>480</x>
+                        <x>550</x>
                         <y>0</y>
-                        <width>241</width>
+                        <width>171</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3400,9 +3596,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>461</width>
+                        <width>531</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>8. Write the 6-digit number with decimals. 6,000 + 400 + 70 + 9 + 0.6 + 0.08 = </string>
@@ -3433,9 +3634,14 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>201</width>
+                        <width>231</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>9. Round to the nearest ten. 827 = </string>
@@ -3444,15 +3650,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_25">
                       <property name="geometry">
                        <rect>
-                        <x>220</x>
+                        <x>240</x>
                         <y>0</y>
-                        <width>501</width>
+                        <width>481</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3503,15 +3710,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_26">
                       <property name="geometry">
                        <rect>
-                        <x>270</x>
+                        <x>300</x>
                         <y>0</y>
-                        <width>451</width>
+                        <width>421</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3544,9 +3752,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>251</width>
+                        <width>281</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>10. Round to the nearest hundred. 7,944 =</string>
@@ -3564,7 +3777,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -3592,7 +3805,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -3668,7 +3882,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -3712,10 +3927,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -3748,15 +3963,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_27">
                       <property name="geometry">
                        <rect>
-                        <x>280</x>
+                        <x>300</x>
                         <y>0</y>
-                        <width>441</width>
+                        <width>421</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3789,9 +4005,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>261</width>
+                        <width>291</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>11. Round to the nearest thousand.18,591 =</string>
@@ -3820,15 +4044,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_28">
                       <property name="geometry">
                        <rect>
-                        <x>220</x>
+                        <x>240</x>
                         <y>0</y>
-                        <width>501</width>
+                        <width>481</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3861,9 +4086,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>211</width>
+                        <width>221</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>12. Write 8/10 in simplest form. = </string>
@@ -3892,15 +4125,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_29">
                       <property name="geometry">
                        <rect>
-                        <x>220</x>
+                        <x>240</x>
                         <y>0</y>
-                        <width>501</width>
+                        <width>481</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -3933,9 +4167,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>201</width>
+                        <width>221</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>13. Write 4/16 in simplest form. =</string>
@@ -3966,9 +4208,17 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>161</width>
+                        <width>171</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>14. What is 78% of 100 = </string>
@@ -3977,15 +4227,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_30">
                       <property name="geometry">
                        <rect>
-                        <x>180</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>541</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -4036,15 +4287,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_31">
                       <property name="geometry">
                        <rect>
-                        <x>180</x>
+                        <x>190</x>
                         <y>0</y>
-                        <width>541</width>
+                        <width>531</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -4077,9 +4329,17 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>20</y>
-                        <width>161</width>
+                        <width>171</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>14. What is 78% of 100 = </string>
@@ -4097,7 +4357,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -4125,7 +4385,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -4228,7 +4489,8 @@ border-radius: 10px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <pointsize>8</pointsize>
+                          <family>SF Pro Display</family>
+                          <pointsize>11</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
                           <kerning>true</kerning>
@@ -4272,10 +4534,10 @@ border-radius: 10px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Times New Roman</family>
-                          <pointsize>9</pointsize>
-                          <weight>75</weight>
-                          <bold>true</bold>
+                          <family>SF Pro Display</family>
+                          <pointsize>12</pointsize>
+                          <weight>50</weight>
+                          <bold>false</bold>
                           <underline>false</underline>
                          </font>
                         </property>
@@ -4308,15 +4570,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_42">
                          <property name="geometry">
                           <rect>
-                           <x>360</x>
+                           <x>370</x>
                            <y>10</y>
-                           <width>351</width>
+                           <width>341</width>
                            <height>61</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -4349,9 +4612,14 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>10</y>
-                           <width>331</width>
+                           <width>351</width>
                            <height>61</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                          </font>
                          </property>
                          <property name="text">
                           <string>1.Find the missing place value from a 5-digit number.
@@ -4381,15 +4649,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_43">
                          <property name="geometry">
                           <rect>
-                           <x>360</x>
+                           <x>400</x>
                            <y>10</y>
-                           <width>351</width>
+                           <width>311</width>
                            <height>71</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -4422,9 +4691,14 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>10</y>
-                           <width>341</width>
+                           <width>381</width>
                            <height>41</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                          </font>
                          </property>
                          <property name="text">
                           <string>2.Find the missing place value from a 6-digit number.
@@ -4462,7 +4736,8 @@ border-radius: 10px;</string>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -4498,6 +4773,11 @@ QLineEdit:focus{
                            <width>201</width>
                            <height>21</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                          </font>
                          </property>
                          <property name="text">
                           <string>3.Which fraction is greater?</string>
@@ -4540,7 +4820,7 @@ QLineEdit:focus{
                         </property>
                         <property name="font">
                          <font>
-                          <family>Times New Roman</family>
+                          <family>SF Pro Display</family>
                           <pointsize>14</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -4568,7 +4848,8 @@ QLineEdit:focus{
                         </property>
                         <property name="font">
                          <font>
-                          <pointsize>8</pointsize>
+                          <family>SF Pro Display</family>
+                          <pointsize>11</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
                           <kerning>true</kerning>
@@ -4647,7 +4928,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -4691,10 +4973,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -4735,7 +5017,8 @@ border-radius: 10px;</string>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -4768,9 +5051,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>171</width>
+                        <width>191</width>
                         <height>20</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>4. Which fraction is greater?</string>
@@ -4804,9 +5092,15 @@ QLineEdit:focus{
                       <rect>
                        <x>10</x>
                        <y>190</y>
-                       <width>341</width>
+                       <width>351</width>
                        <height>101</height>
                       </rect>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
+                      </font>
                      </property>
                      <property name="styleSheet">
                       <string notr="true">background-color: #ebdbb2;
@@ -4823,13 +5117,14 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>50</y>
-                        <width>321</width>
+                        <width>331</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -4862,13 +5157,24 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>321</width>
+                        <width>341</width>
                         <height>31</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>5.If the ratio of hearts to all shapes is 3/20. What is the 
 ratio of squares to all shapes?</string>
+                      </property>
+                      <property name="textFormat">
+                       <enum>Qt::PlainText</enum>
                       </property>
                      </widget>
                     </widget>
@@ -4877,7 +5183,7 @@ ratio of squares to all shapes?</string>
                       <rect>
                        <x>10</x>
                        <y>300</y>
-                       <width>341</width>
+                       <width>351</width>
                        <height>91</height>
                       </rect>
                      </property>
@@ -4896,13 +5202,14 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>40</y>
-                        <width>321</width>
+                        <width>331</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -4935,9 +5242,14 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>241</width>
+                        <width>281</width>
                         <height>21</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
                       </property>
                       <property name="text">
                        <string>6.What is the ratio of diamonds to circles?</string>
@@ -4955,7 +5267,7 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -4983,7 +5295,8 @@ QLineEdit:focus{
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -5078,7 +5391,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -5122,10 +5436,10 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -5158,15 +5472,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_48">
                       <property name="geometry">
                        <rect>
-                        <x>260</x>
+                        <x>290</x>
                         <y>0</y>
-                        <width>271</width>
+                        <width>241</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -5199,9 +5514,16 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>241</width>
+                        <width>271</width>
                         <height>41</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>7. Supply the missing term. 24/80 = x/10</string>
@@ -5230,15 +5552,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_49">
                       <property name="geometry">
                        <rect>
-                        <x>260</x>
+                        <x>250</x>
                         <y>0</y>
-                        <width>271</width>
+                        <width>281</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -5275,6 +5598,13 @@ QLineEdit:focus{
                         <height>41</height>
                        </rect>
                       </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
+                      </property>
                       <property name="text">
                        <string>8. Supply the missing term. 4/28 = 1/x</string>
                       </property>
@@ -5302,15 +5632,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_50">
                       <property name="geometry">
                        <rect>
-                        <x>210</x>
+                        <x>250</x>
                         <y>0</y>
-                        <width>321</width>
+                        <width>281</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -5343,9 +5674,16 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>191</width>
+                        <width>221</width>
                         <height>31</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>9. Write the name of the shaded 
@@ -5364,7 +5702,7 @@ part of the figure as percent.</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -5392,7 +5730,8 @@ part of the figure as percent.</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Pro Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -5447,15 +5786,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_51">
                       <property name="geometry">
                        <rect>
-                        <x>210</x>
+                        <x>250</x>
                         <y>0</y>
-                        <width>321</width>
+                        <width>281</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -5488,9 +5828,16 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>191</width>
+                        <width>221</width>
                         <height>31</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
                       </property>
                       <property name="text">
                        <string>10.Write the name of the shaded
@@ -5610,7 +5957,8 @@ part of the figure as percent.</string>
                         </property>
                         <property name="font">
                          <font>
-                          <pointsize>8</pointsize>
+                          <family>SF Pro Display</family>
+                          <pointsize>11</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
                           <kerning>true</kerning>
@@ -5654,10 +6002,10 @@ border-radius: 10px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Times New Roman</family>
-                          <pointsize>9</pointsize>
-                          <weight>75</weight>
-                          <bold>true</bold>
+                          <family>SF Pro Display</family>
+                          <pointsize>12</pointsize>
+                          <weight>50</weight>
+                          <bold>false</bold>
                           <underline>false</underline>
                          </font>
                         </property>
@@ -5690,15 +6038,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_32">
                          <property name="geometry">
                           <rect>
-                           <x>480</x>
+                           <x>510</x>
                            <y>0</y>
-                           <width>241</width>
+                           <width>211</width>
                            <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -5730,10 +6079,16 @@ QLineEdit:focus{
                          <property name="geometry">
                           <rect>
                            <x>10</x>
-                           <y>10</y>
-                           <width>451</width>
-                           <height>31</height>
+                           <y>0</y>
+                           <width>491</width>
+                           <height>41</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                           <pointsize>11</pointsize>
+                          </font>
                          </property>
                          <property name="text">
                           <string>1. The teacher ordered 23 hotdogs and 45 hamburgers for the students’ lunch.
@@ -5766,15 +6121,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_33">
                          <property name="geometry">
                           <rect>
-                           <x>540</x>
+                           <x>570</x>
                            <y>0</y>
-                           <width>181</width>
+                           <width>151</width>
                            <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -5807,9 +6163,15 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>0</y>
-                           <width>521</width>
+                           <width>551</width>
                            <height>41</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                           <pointsize>11</pointsize>
+                          </font>
                          </property>
                          <property name="text">
                           <string>2. There are 51 students in Mr. Stevens' class. There are 13 fewer students in Mrs. Patel's 
@@ -5842,15 +6204,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_34">
                          <property name="geometry">
                           <rect>
-                           <x>430</x>
+                           <x>450</x>
                            <y>0</y>
-                           <width>291</width>
+                           <width>271</width>
                            <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -5883,9 +6246,15 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>0</y>
-                           <width>411</width>
+                           <width>431</width>
                            <height>41</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                           <pointsize>11</pointsize>
+                          </font>
                          </property>
                          <property name="text">
                           <string>3. Jodi has 1 whole of a pie. Her little brother asks for half of her slice. 
@@ -5920,9 +6289,15 @@ border-radius: 10px;</string>
                           <rect>
                            <x>10</x>
                            <y>0</y>
-                           <width>221</width>
+                           <width>231</width>
                            <height>41</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                           <pointsize>11</pointsize>
+                          </font>
                          </property>
                          <property name="text">
                           <string>4. Lorna earns Php 10,000 a month. 
@@ -5932,15 +6307,16 @@ How much does she earn in 2 years?</string>
                         <widget class="QLineEdit" name="lineEdit_35">
                          <property name="geometry">
                           <rect>
-                           <x>240</x>
+                           <x>250</x>
                            <y>0</y>
-                           <width>481</width>
+                           <width>471</width>
                            <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -5991,15 +6367,16 @@ border-radius: 10px;</string>
                         <widget class="QLineEdit" name="lineEdit_36">
                          <property name="geometry">
                           <rect>
-                           <x>450</x>
+                           <x>480</x>
                            <y>0</y>
-                           <width>271</width>
+                           <width>241</width>
                            <height>51</height>
                           </rect>
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <family>SF Pro Text</family>
+                           <pointsize>12</pointsize>
                           </font>
                          </property>
                          <property name="toolTip">
@@ -6032,9 +6409,15 @@ QLineEdit:focus{
                           <rect>
                            <x>10</x>
                            <y>10</y>
-                           <width>431</width>
+                           <width>461</width>
                            <height>31</height>
                           </rect>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>SF Pro Display</family>
+                           <pointsize>11</pointsize>
+                          </font>
                          </property>
                          <property name="text">
                           <string>5. Obed and Dario hiked 15.1 km. in one day and 13.75 km in the next day.
@@ -6053,7 +6436,7 @@ How many kilometers did they hiked in all?</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Times New Roman</family>
+                          <family>SF Pro Display</family>
                           <pointsize>14</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -6081,7 +6464,8 @@ How many kilometers did they hiked in all?</string>
                         </property>
                         <property name="font">
                          <font>
-                          <pointsize>8</pointsize>
+                          <family>SF Pro Display</family>
+                          <pointsize>11</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
                           <kerning>true</kerning>
@@ -6163,7 +6547,8 @@ border-radius: 10px;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Compact Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -6184,7 +6569,7 @@ border-radius: 10px;</string>
                      </property>
                      <property name="icon">
                       <iconset resource="icons.qrc">
-                       <normaloff>:/icons/1CON/cloud-download.svg</normaloff>:/icons/1CON/cloud-download.svg</iconset>
+                       <normaloff>:/icons/1CON/document-checkmark.svg</normaloff>:/icons/1CON/document-checkmark.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -6200,17 +6585,17 @@ border-radius: 10px;</string>
                      <property name="geometry">
                       <rect>
                        <x>10</x>
-                       <y>50</y>
+                       <y>40</y>
                        <width>281</width>
                        <height>21</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
-                       <pointsize>9</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
+                       <family>SF Pro Display</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
                        <underline>false</underline>
                       </font>
                      </property>
@@ -6243,15 +6628,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_37">
                       <property name="geometry">
                        <rect>
-                        <x>470</x>
+                        <x>510</x>
                         <y>0</y>
-                        <width>251</width>
+                        <width>211</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -6284,9 +6670,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>0</y>
-                        <width>451</width>
+                        <width>491</width>
                         <height>51</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string> 6. Mr. De Guzman and the boys spent Php 567.75 for food and Php 175.50 for 
@@ -6320,15 +6712,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_38">
                       <property name="geometry">
                        <rect>
-                        <x>350</x>
+                        <x>370</x>
                         <y>0</y>
-                        <width>371</width>
+                        <width>351</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -6361,9 +6754,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>331</width>
+                        <width>351</width>
                         <height>41</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>7. 10% of our class of 40 was unable to join the field trip.
@@ -6396,15 +6795,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_39">
                       <property name="geometry">
                        <rect>
-                        <x>520</x>
+                        <x>560</x>
                         <y>0</y>
-                        <width>201</width>
+                        <width>161</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -6437,9 +6837,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>0</y>
-                        <width>501</width>
+                        <width>541</width>
                         <height>61</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>8. A company donates 935 pencils to a school. The pencils are divided evenly among 9 
@@ -6475,9 +6881,15 @@ border-radius: 10px;</string>
                        <rect>
                         <x>10</x>
                         <y>0</y>
-                        <width>501</width>
+                        <width>541</width>
                         <height>41</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>9. The city park is 9 1/2 miles from Roland Elementary School. The city library is 3 3/10 
@@ -6487,15 +6899,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_40">
                       <property name="geometry">
                        <rect>
-                        <x>520</x>
+                        <x>560</x>
                         <y>0</y>
-                        <width>201</width>
+                        <width>161</width>
                         <height>51</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -6546,15 +6959,16 @@ border-radius: 10px;</string>
                      <widget class="QLineEdit" name="lineEdit_41">
                       <property name="geometry">
                        <rect>
-                        <x>450</x>
+                        <x>490</x>
                         <y>0</y>
-                        <width>271</width>
+                        <width>231</width>
                         <height>61</height>
                        </rect>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <family>SF Pro Text</family>
+                        <pointsize>12</pointsize>
                        </font>
                       </property>
                       <property name="toolTip">
@@ -6587,9 +7001,15 @@ QLineEdit:focus{
                        <rect>
                         <x>10</x>
                         <y>10</y>
-                        <width>431</width>
+                        <width>471</width>
                         <height>51</height>
                        </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                        <pointsize>11</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string>10. There are 12 people in Mrs. Hilt’s living room. 6 people are 
@@ -6601,15 +7021,15 @@ How many people are in bare feet? </string>
                     <widget class="QLabel" name="label_79">
                      <property name="geometry">
                       <rect>
-                       <x>30</x>
+                       <x>0</x>
                        <y>10</y>
-                       <width>681</width>
+                       <width>751</width>
                        <height>31</height>
                       </rect>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Times New Roman</family>
+                       <family>SF Pro Display</family>
                        <pointsize>14</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -6637,7 +7057,8 @@ How many people are in bare feet? </string>
                      </property>
                      <property name="font">
                       <font>
-                       <pointsize>8</pointsize>
+                       <family>SF Compact Display</family>
+                       <pointsize>11</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
                        <kerning>true</kerning>
@@ -6763,8 +7184,7 @@ border-radius: 10px;</string>
                          </property>
                          <property name="font">
                           <font>
-                           <weight>50</weight>
-                           <bold>false</bold>
+                           <family>SF Pro Text</family>
                           </font>
                          </property>
                          <property name="styleSheet">
@@ -6847,6 +7267,11 @@ QLineEdit:focus{
                     </property>
                     <item>
                      <widget class="QTextEdit" name="textEdit">
+                      <property name="font">
+                       <font>
+                        <family>SF Pro Display</family>
+                       </font>
+                      </property>
                       <property name="styleSheet">
                        <string notr="true">background-color: #ebdbb2;</string>
                       </property>
@@ -6925,148 +7350,197 @@ border-radius: 10px;</string>
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
-                  <widget class="QFrame" name="frame_3">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
+                 <item>
+                  <widget class="QFrame" name="frame_19">
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <layout class="QGridLayout" name="gridLayout_2">
-                    <property name="leftMargin">
-                     <number>0</number>
+                   <widget class="QLabel" name="label_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>-30</x>
+                      <y>20</y>
+                      <width>381</width>
+                      <height>531</height>
+                     </rect>
                     </property>
-                    <property name="topMargin">
-                     <number>0</number>
+                    <property name="font">
+                     <font>
+                      <pointsize>5</pointsize>
+                     </font>
                     </property>
-                    <property name="rightMargin">
-                     <number>0</number>
+                    <property name="text">
+                     <string/>
                     </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
+                    <property name="pixmap">
+                     <pixmap resource="icons.qrc">:/icons/1CON/DysIMAL.svg</pixmap>
                     </property>
-                    <property name="spacing">
-                     <number>0</number>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
                     </property>
-                    <item row="1" column="1" alignment="Qt::AlignHCenter">
-                     <widget class="QLabel" name="label_9">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                        <weight>75</weight>
-                        <bold>true</bold>
-                       </font>
-                      </property>
-                      <property name="text">
-                       <string>PROJECT MANAGER : RENOMERON, ROMEL</string>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="1">
-                     <widget class="QLabel" name="label_2">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="pixmap">
-                       <pixmap resource="icons.qrc">:/icons/1CON/software-engineer.svg</pixmap>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="5" column="1" alignment="Qt::AlignHCenter">
-                     <widget class="QLabel" name="label_11">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                        <weight>75</weight>
-                        <bold>true</bold>
-                       </font>
-                      </property>
-                      <property name="text">
-                       <string>UI/UX DESIGNER : BIAOCO, VINCE HARVEY</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="7" column="1" alignment="Qt::AlignHCenter">
-                     <widget class="QLabel" name="label_12">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                        <weight>75</weight>
-                        <bold>true</bold>
-                       </font>
-                      </property>
-                      <property name="text">
-                       <string>TECHNICAL LEAD : BAYSA, JERSON</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1" alignment="Qt::AlignHCenter">
-                     <widget class="QLabel" name="label">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="pixmap">
-                       <pixmap resource="icons.qrc">:/icons/1CON/computer-businesswoman.svg</pixmap>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="3" column="1" alignment="Qt::AlignHCenter">
-                     <widget class="QLabel" name="label_10">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                        <weight>75</weight>
-                        <bold>true</bold>
-                       </font>
-                      </property>
-                      <property name="text">
-                       <string>SOFTWARE DEVELOPER | PLAZA, ORLY O.</string>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="4" column="1">
-                     <widget class="QLabel" name="label_6">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="pixmap">
-                       <pixmap resource="icons.qrc">:/icons/1CON/administrator-developer.svg</pixmap>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="6" column="1">
-                     <widget class="QLabel" name="label_7">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="pixmap">
-                       <pixmap resource="icons.qrc">:/icons/1CON/administrator-developer.svg</pixmap>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
+                   </widget>
+                   <widget class="QFrame" name="frame_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>330</x>
+                      <y>90</y>
+                      <width>401</width>
+                      <height>181</height>
+                     </rect>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>SF Pro Display</family>
+                     </font>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_2">
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item row="4" column="1">
+                      <widget class="QLabel" name="label_6">
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap resource="icons.qrc">:/icons/1CON/administrator-developer.svg</pixmap>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="6" column="1">
+                      <widget class="QLabel" name="label_7">
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap resource="icons.qrc">:/icons/1CON/administrator-developer.svg</pixmap>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="3" column="1" alignment="Qt::AlignHCenter">
+                      <widget class="QLabel" name="label_10">
+                       <property name="font">
+                        <font>
+                         <family>SF Pro Display</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>SOFTWARE DEVELOPER | PLAZA, ORLY O.</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="1" alignment="Qt::AlignHCenter">
+                      <widget class="QLabel" name="label_9">
+                       <property name="font">
+                        <font>
+                         <family>SF Pro Display</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>PROJECT MANAGER : RENOMERON, ROMEL</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="5" column="1" alignment="Qt::AlignHCenter">
+                      <widget class="QLabel" name="label_11">
+                       <property name="font">
+                        <font>
+                         <family>SF Pro Display</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>UI/UX DESIGNER : BIAOCO, VINCE HARVEY</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="7" column="1" alignment="Qt::AlignHCenter">
+                      <widget class="QLabel" name="label_12">
+                       <property name="font">
+                        <font>
+                         <family>SF Pro Display</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>TECHNICAL LEAD : BAYSA, JERSON</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="2" column="1">
+                      <widget class="QLabel" name="label_2">
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap resource="icons.qrc">:/icons/1CON/software-engineer.svg</pixmap>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1" alignment="Qt::AlignHCenter">
+                      <widget class="QLabel" name="label">
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap resource="icons.qrc">:/icons/1CON/computer-businesswoman.svg</pixmap>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
                   </widget>
                  </item>
                 </layout>
@@ -7080,7 +7554,7 @@ border-radius: 10px;</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>741</width>
+                <width>761</width>
                 <height>501</height>
                </rect>
               </property>
@@ -7133,15 +7607,16 @@ border-radius: 10px;</string>
               <property name="geometry">
                <rect>
                 <x>0</x>
-                <y>160</y>
+                <y>150</y>
                 <width>741</width>
                 <height>20</height>
                </rect>
               </property>
               <property name="font">
                <font>
-                <weight>75</weight>
-                <bold>true</bold>
+                <family>SF Pro Display</family>
+                <weight>50</weight>
+                <bold>false</bold>
                </font>
               </property>
               <property name="text">
@@ -7175,10 +7650,8 @@ border-radius: 10px;</string>
                 <widget class="QLabel" name="label_100">
                  <property name="font">
                   <font>
-                   <family>MS Shell Dlg 2</family>
-                   <pointsize>15</pointsize>
+                   <family>SF Pro Display</family>
                    <weight>75</weight>
-                   <italic>false</italic>
                    <bold>true</bold>
                   </font>
                  </property>
